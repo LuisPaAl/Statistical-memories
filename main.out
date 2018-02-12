@@ -1,0 +1,16 @@
+\BOOKMARK [0][-]{section*.2}{ESTAD\315STICA BAYESIANA Y COSMOLOG\315A}{}% 2
+\BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
+\BOOKMARK [1][-]{section*.3}{Estad\355stica Bayesiana vs Frecuentista}{section*.2}% 3
+\BOOKMARK [1][-]{section*.5}{Introducci\363n a la Estad\355stica Bayesiana}{section*.2}% 4
+\BOOKMARK [2][-]{section*.6}{Teorema de Bayes, priors, posteriores y esas cosas}{section*.5}% 5
+\BOOKMARK [2][-]{section*.7}{\277 Y qu\351 hay acerca del Likelihood?}{section*.5}% 6
+\BOOKMARK [2][-]{section*.8}{Actualizando los posteriores}{section*.5}% 7
+\BOOKMARK [2][-]{section*.9}{Chi-cuadrada}{section*.5}% 8
+\BOOKMARK [2][-]{section*.10}{Curvas de contorno y regiones de confidencia}{section*.5}% 9
+\BOOKMARK [2][-]{section*.11}{Marginalizaci\363n}{section*.5}% 10
+\BOOKMARK [1][-]{section*.12}{M\351todos Num\351ricos}{section*.2}% 11
+\BOOKMARK [2][-]{section*.13}{T\351cnicas de MCMC para la inferencia de par\341metros}{section*.12}% 12
+\BOOKMARK [3][-]{section*.14}{Algoritmo de ``Metropolis Hasting"}{section*.13}% 13
+\BOOKMARK [2][-]{section*.15}{Pruebas de convergencia}{section*.12}% 14
+\BOOKMARK [2][-]{section*.16}{Algunos detalles imporantes}{section*.12}% 15
+\BOOKMARK [1][-]{section*.17}{Una primera sesi\363n de trabajo completo: Ajustando una l\355nea recta}{section*.2}% 16
