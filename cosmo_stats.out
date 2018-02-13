@@ -1,0 +1,30 @@
+\BOOKMARK [0][-]{section*.2}{Cosmo Estad\355stica}{}% 2
+\BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
+\BOOKMARK [1][-]{section*.3}{Introducci\363n}{section*.2}% 3
+\BOOKMARK [1][-]{section*.4}{El Universo observable}{section*.2}% 4
+\BOOKMARK [1][-]{section*.5}{Geometr\355a del espacio-tiempo}{section*.2}% 5
+\BOOKMARK [2][-]{section*.6}{M\351trica Friedmann-Robertson-Walker}{section*.5}% 6
+\BOOKMARK [1][-]{section*.7}{Inventario C\363smico}{section*.2}% 7
+\BOOKMARK [2][-]{section*.8}{Radiaci\363n}{section*.7}% 8
+\BOOKMARK [2][-]{section*.9}{Materia}{section*.7}% 9
+\BOOKMARK [2][-]{section*.10}{Vac\355o}{section*.7}% 10
+\BOOKMARK [2][-]{section*.11}{Curvatura}{section*.7}% 11
+\BOOKMARK [1][-]{section*.12}{Ecuaciones Cosmol\363gicas}{section*.2}% 12
+\BOOKMARK [1][-]{section*.13}{Par\341metros Cosmol\363gicos}{section*.2}% 13
+\BOOKMARK [2][-]{section*.14}{Par\341metros base}{section*.13}% 14
+\BOOKMARK [2][-]{section*.15}{Par\341metros de Fondo}{section*.13}% 15
+\BOOKMARK [2][-]{section*.16}{Par\341metros derivados}{section*.13}% 16
+\BOOKMARK [1][-]{section*.17}{Observaciones}{section*.2}% 17
+\BOOKMARK [2][-]{section*.18}{Supernovas}{section*.17}% 18
+\BOOKMARK [1][-]{section*.20}{Estad\355stica Bayesiana}{section*.2}% 19
+\BOOKMARK [2][-]{section*.21}{Teorema de Bayes, priors, posteriores y esas cosas}{section*.20}% 20
+\BOOKMARK [2][-]{section*.22}{Likelihood}{section*.20}% 21
+\BOOKMARK [2][-]{section*.23}{Chi-cuadrada}{section*.20}% 22
+\BOOKMARK [2][-]{section*.24}{Curvas de contorno y regiones de confidencia}{section*.20}% 23
+\BOOKMARK [2][-]{section*.25}{Marginalizaci\363n}{section*.20}% 24
+\BOOKMARK [1][-]{section*.26}{M\351todos Num\351ricos}{section*.2}% 25
+\BOOKMARK [2][-]{section*.27}{MCMC para la inferencia de par\341metros}{section*.26}% 26
+\BOOKMARK [3][-]{section*.28}{Algoritmo ``Metropolis Hasting"}{section*.27}% 27
+\BOOKMARK [2][-]{section*.29}{Pruebas de convergencia}{section*.26}% 28
+\BOOKMARK [2][-]{section*.30}{Algunos detalles imporantes}{section*.26}% 29
+\BOOKMARK [1][-]{section*.31}{Ajustando una l\355nea recta}{section*.2}% 30
