@@ -6,7 +6,7 @@
 % Some other (several out of many) possibilities
 %\documentclass[preprint,aps]{revtex4}
 %\documentclass[preprint,aps,draft]{revtex4}
-\documentclass[11pt,prb,
+\documentclass[10.5pt,prb,
                showpacs,            % Pacs : showpacs, noshowpacs
                preprintnumbers,     % Preprint: preprintnumbers,
                			    %           nopreprintnumbers
@@ -99,7 +99,7 @@ tensor de Einstein $G_{\mu \nu}$ y el tensor de Energ\'ia-momento $T_{\mu \nu}$
  \noindent
 La parte izquierda de la igualdad describe la geometr\'ia del espacio-tiempo englobada en las 
 componentes del tensor de Ricci $R_{\mu \nu}$, el escalar de Ricci $R$ y la m\'etrica del espacio-tiempo
-$g_{\mu \nu}$. \'Estas en conjunto dirigen el comportamiento de los constituyentes de universo  $T_{\mu \nu}$.
+$g_{\mu \nu}$. \'Estas en conjunto dirigen el comportamiento de los constituyentes del universo  $T_{\mu \nu}$.
 Una modificaci\'on aceptable a las ecuaciones de Einstein es la introducci\'on de una  invariante
 bajo transformaciones de Loretz $\Lambda g_{\mu \nu}$ en las ecuaciones de campo
 %
@@ -110,7 +110,7 @@ bajo transformaciones de Loretz $\Lambda g_{\mu \nu}$ en las ecuaciones de campo
 donde $\Lambda$ es la denominada constante cosmol\'ogica y su valor, de acuerdo con observaciones astrof\'isicas,
 es $\Lambda \sim10^{-52} m^{-2}$; veremos un poco m\'as acerca de esta componente en la siguiente secci\'on.
 Las ecuaciones (\ref{eq:Einstein}) son, en general, un conjunto de ecuaciones diferenciales parciales acopladas 
-cuasi-lineares y de segundo orden para los diez elementos del tensor m\'etrico. Sin embargo, \'estas pueden 
+cuasi-lineales y de segundo orden para los diez elementos del tensor m\'etrico. Sin embargo, \'estas pueden 
 presentar soluciones anal\'icas simples en la presencia de simetr\'ias gen\'ericas, como veremos mas adelante.
 
 
@@ -150,42 +150,44 @@ Copernicano}- por tanto homogeneidad se sigue de considerar isotrop\'ia en cada 
 
 
 Vamos a incorporar los postulados de Homogeneidad e Isotrop\'ia en la descripci\'on geom\'etrica del Universo. 
-El primero demanda que todos lo puntos sobre una hiper-superficie espacial son equivalentes,
+El primero demanda que todos lo puntos sobre una hiper-superficie espacial sean equivalentes,
 mientras que el segundo asegura que todas las direcciones sobre dicha hiper-superficie son 
 equivalentes para observadores fundamentales. Esto es, isotrop\'ia requiere que la distribuci\'on 
 de galaxias a dos tiempos distintos sea similar, mientras que la homogeneidad requiere
 que el factor de magnificaci\'on deba ser independiente de la posici\'on de la distribuci\'on. 
-Por lo tanto, se sigue que la m\'etrica deba tener la siguiente forma.
+%Por lo tanto, se sigue que la m\'etrica deba tener la siguiente forma.
+%%
+%	\beq \label{eq:FRW}
+%		ds^2 = g_{\mu \nu} dx^\mu dx^\nu = dt^2 - a^2(t)\gamma_{ij}dx^i dx^j,
+%	\eeq
 %
-	\beq \label{eq:FRW}
-		ds^2 = g_{\mu \nu} dx^\mu dx^\nu = dt^2 - a^2(t)\gamma_{ij}dx^i dx^j,
-	\eeq
+%donde $a(t)$ es una funci\'on - comúnmente denominada como {\it factor de escala normalizado} - 
+%cuya dependencia solo es temporal.
+Adem\'as, a trav\'es de los a\~nos, observaciones cosmológicas han dado evidencia contundente de  que 
+el Universo actual se encuentra en un per\'iodo de expansi\'on. 
+%y por tanto el factor de escala satisface 
+%la condici\'on $\dot a(t)>0$.
 %
-donde $a(t)$ es una funci\'on - comúnmente denominada como {\it factor de escala normalizado} - 
-cuya dependencia solo es temporal.
-A trav\'es de los a\~nos, observaciones cosmológicas han dado evidencia contundente que 
-el Universo actual se encuentra en un per\'iodo de expansi\'on y por tanto el factor de escala satisface 
-la condici\'on $\dot a(t)>0$.
+De esta manera es preciso describir nuestro Universo con una m\'etrica que contenga toda esta informaci\'on.  \'Esta m\'etrica que describe este Universo sobre las escalas m\'as grandes se le conoce
+como m\'etrica de Friedmann-Robertson-Walker (FRW)
+%Por otro lado, el tensor $\gamma_{ij}$ contiene solo funciones dependientes de las coordenadas.
+%Adem\'as, el espacio-tiempo que cumple con las propiedades de homogeneidad e isotr\'opia es aquel
+%cuyas propiedades quedan especificadas con tan solo una constante - la \textit{curvatura} $K$.
+%Este tipo de espacios, denominados {\it maximalmente sim\'etricos}, definen la parte espacial de la m\'etrica
+%como
 %
-La m\'etrica que describe este Universo homogeneo e isotr\'opico sobre las escalas m\'as grandes se le conoce
-como m\'etrica de Friedmann-Robertson-Walker (FRW).
-Por otro lado, el tensor $\gamma_{ij}$ contiene solo funciones dependientes de las coordenadas.
-Adem\'as, el espacio-tiempo que cumple con las propiedades de homogeneidad e isotr\'opia es aquel
-cuyas propiedades quedan especificadas con tan solo una constante - la \textit{curvatura} $K$.
-Este tipo de espacios, denominados {\it maximalmente sim\'etricos}, definen la parte espacial de la m\'etrica
-como
+%	\beq \label{eq:FRW2}
+%		\gamma_{ij} dx^i dx^j = \frac{dr^2}{1- Kr^2} + r^2d\Omega^2,
+%	\eeq
 %
-	\beq \label{eq:FRW2}
-		\gamma_{ij} dx^i dx^j = \frac{dr^2}{1- Kr^2} + r^2d\Omega^2,
-	\eeq
-%
-donde $r$ es la coordenada radial y $d\Omega^2 = d\theta^2 + \sin^2 \theta d\phi^2$ es la m\'etrica de la 2-esfera.
-Por tanto, sustituyendo (\ref{eq:FRW2}) en (\ref{eq:FRW}), la m\'etrica FRW se reescribe de la siguiente forma
+%donde $r$ es la coordenada radial y $d\Omega^2 = d\theta^2 + \sin^2 \theta d\phi^2$ es la m\'etrica de la 2-esfera.
+%Por tanto, sustituyendo (\ref{eq:FRW2}) en (\ref{eq:FRW}), la m\'etrica FRW se reescribe de la siguiente forma
 
 	\beq \label{eq:FRW3}
 		ds^2 = dt^2 - a^2(t)\left[\frac{dr^2}{1-Kr^2} + r^2d\Omega^2 \right].
 	\eeq
 %
+donde $r$ es la coordenada radial y $d\Omega^2 = d\theta^2 + \sin^2 \theta d\phi^2$ es la m\'etrica de la 2-esfera. El t\'ermino $a(t)$ es conocido como el factor de escalar normalizado y representa el factor de magnificaci\'on de nuestro Universo. N\'otese que para obtener un Universo en expansi\'on es necesario que $\dot a(t)>0$.
 La constante $K$ describe la geometr\'ia de las secciones espaciales y dependiendo del valor $K>0, K=0$ o $K<0$
 representa Universos tipo cerrado $\mathcal{S}^3$, plano $\mathcal{R}^3$ o abierto $\mathcal{H}^3$  respectivamente.
 %
@@ -301,9 +303,9 @@ dada por
 	\eeq
 
 \noindent
-donde $N_{\rm eff}$ es el n\'umero efectivo de especies de neutrinos; n\'otese que considerando el modelo est\'andar $N_{\rm eff}=3.046$.
+donde $N_{\rm eff}$ es el n\'umero efectivo de especies de neutrinos; n\'otese que considerando el modelo est\'andar se tiene $N_{\rm eff}=3.046$.
 Recientemente varios experimentos sugieren que los neutrinos efectivamente si poseen 
-una masa aunque \'esta muy peque\~na, por ejemplo experimentos que detectan neutrinos atmosf\'ericos o neutrinos solares.
+una masa aunque muy peque\~na, por ejemplo experimentos que detectan neutrinos atmosf\'ericos o neutrinos solares.
 Aunado a esto, obervaciones cosmol\'ogicas tambi\'en pueden imponer l\'imites en las masas de los neutrinos; algunos art\'iculos
 de revisi\'on sobre el tema [].
 
@@ -543,12 +545,12 @@ a gran escala. En este art\'iculo nos enfocaremos en las supernovas.
 %%------------------------------------------------------------------------------------------------%%
 
 Por m\'as de casi dos d\'ecadas las observaciones en las supernovas han proporcionado 
-evidencia decisiva que la expansi\'on actual del universo se encuentra en una etapa de 
+evidencia decisiva de que la expansi\'on actual del universo se encuentra en una etapa de 
 aceleramiento. En particular estudios de supernovas tipo IA consideradas como velas est\'andar:
 ellas tiene la propiedad de poseer la misma luminosidad intr\'inseca con alta presici\'on, hasta un factor 
 de reescalamiento. Por tanto, la aceleraci\'on actual sugiere de la existencia de una componente ex\'otica
 o la posibilidad de teor\'ias alternativas las cuales producir\'ian tal efecto. Algunos ejemplos 
-de detecci\'on de supernovas tipo IA importante mencionar, incluyen:
+de detecciones de supernovas tipo IA que son importantes por mencionar, incluyen:
 
 	\begin{itemize}
 		\item El Sloan Digital Sky Survey-II (SDSS) quien descrubri\'o y midi\'o curvas de luz de m\'as de 327 supernovas
@@ -587,7 +589,7 @@ como lo veremos en las siguientes secciones.
 
 Durante la \'ultima d\'ecada la informaci\'on proveniente de un amplio rango de fuentes se ha incrementado sorprendentemente,
 por ejemplo de la radiaci\'on c\'osmica del fondo de microondas, de Supernovas y de la estructura a gran escala del universo.
-Este art\'iculo nos enfocado en traducir la informaci\'on experimental/observacional en constricciones de nuestros modelos 
+En este art\'iculo nos enfocaremos en traducir la informaci\'on experimental/observacional en constricciones de nuestros modelos 
 resumido en la estimaci\'on de los par\'ametros cosmol\'ogicos involucrados.
 Uno de los objetivos principales de la cosmolog\'ia observacional es determinar 
 la combinaci\'on de par\'ametros que mejor describen los datos observacionales.
@@ -852,7 +854,6 @@ mediante la expresi\'on
 	\begin{equation}
 		P(\theta_1,...,\theta_j,H|D)=\int d\theta_{j+1}...d\theta_{m}P(\theta,H|D)
 	\end{equation}
-
 donde $m$ es el n\'umero total de par\'ametros en nuestro modelo y $\theta_1,...,\theta_j$ 
 corresponden a los par\'ametros en los que estamos interesados.
 
@@ -899,7 +900,7 @@ Como se explic\'o anteriormente, en un proceso MCMC es necesario proponer un nue
 paso en nuestra cadena tomando s\'olo como informaci\'on el paso presente. Sin embargo, 
 como es de esperarse, necesitamos un criterio de aceptaci\'on (o rechazo) de este nuevo paso, 
 dependiendo de si \'este resulta ser mejor para nuestro modelo o no. Por otro lado, si resulta 
-que el nuevo paso es mejor, nos gustar\'ia no siempre aceptarlo, ya que de hacerlo, se podr\'ia 
+que el nuevo paso es mejor, nos gustar\'ia no siempre aceptarlo, ya que de hacerlo se podr\'ia 
 dar el caso de que no estemos mapeando completamente el espacio de par\'ametros e ir 
 convergiendo a lo que podr\'ia ser un m\'aximo local de probabilidad para nuestro posterior. 
 El algoritmo m\'as simple que contiene toda esta informaci\'on en su metodolog\'ia es conocido 
@@ -916,7 +917,7 @@ q(\theta_c,\theta_i)$. De esta manera, la probabilidad de aceptar un nuevo punto
 		p(aceptar)=min\left[1,\frac{p_c}{p_i}\right]
 	\end{equation}
 
-De esta manera, el algoritmo completo puede ser descrito por los siguientes pasos:
+As\'i, el algoritmo completo puede ser descrito por los siguientes pasos:
 %
 	\begin{enumerate}
 		\item Elegir un valor inicial aleatorio $\theta_i$ en el espacio de par\'ametros y calcular su correspondiente posterior.
@@ -929,7 +930,7 @@ De esta manera, el algoritmo completo puede ser descrito por los siguientes paso
 
 \subsection{Pruebas de convergencia}
 
-Es claro la necesidad de alg\'un criterio que nos permita saber cuando nuestras cadenas 
+Es clara la necesidad de alg\'un criterio que nos permita saber cuando nuestras cadenas 
 han convergido al estado estacionario, de lo contrario, uno podr\'ia tener una gran p\'erdida de 
 tiempo computacionalmente hablando. La forma m\'as simple de 
 hacer dicha prueba consiste en correr multiples cadenas y detectar a simple vista  
@@ -983,19 +984,19 @@ conjunto de 25 datos a lo largo de la recta $y=1+x$. Digamos que estos datos fue
 a partir de una teor\'ia en que la l\'inea recta es el modelo que puede describir al sistema. 
 Para dificultar un poco m\'as las cosas, vamos a agregar a cada dato un ruido gaussiano con 
 desviaci\'on estandar $\sigma = 0.3$, que puede ser debido a problemas en la medici\'on. 
-Con esto, nuestros datos lucir\'an como se pueden ver en la figura \ref{data}.
+Con esto, nuestros datos lucir\'an como se pueden ver en la figura \ref{dat}.
 
 
 \begin{figure}[ht] 
 \includegraphics[trim = 1mm  1mm 1mm 1mm, clip, width=8.cm, height=5cm]{data.png}
 \caption{\jav{Graficar barras de error}. Datos a lo largo 
 de la recta $y=1+x$ con un ruido gaussiano con desviaci\'on estandar $\sigma = 0.3$.}% \citep{LiddleLyth}.}
-\label{fig:chain}
+\label{dat}
 \end{figure}
 
 
 Ahora bien, supongamos que estamos interesados en conocer el valor de los par\'ametros 
-$a$ y $m$ de nuestra recta $y=a+mx$, por lo que nos gustar\'ia estimar dichos par\'ametros 
+$a$ y $b$ de nuestra recta $y=a+bx$, por lo que nos gustar\'ia estimar dichos par\'ametros 
 mediante un proceso de inferencia Bayesiana. Tambi\'en es posible estimar cual es la desviaci\'on 
 estandar de nuestro conjunto de datos a lo largo de la recta, lo que nos agregar\'ia un par\'ametro 
 $\sigma$ extra por estimar. Si consideramos que en principio no conocemos nada sobre el valor de 
@@ -1003,21 +1004,22 @@ nuestros par\'ametros libres, salvo las cotas l\'imite en que \'estos deber\'ian
 comenzar nuestra inferencia Bayesiana ser\'ia el considerar distribuciones planas. Para esto comenzaremos considerando los priors
 %
 	\begin{equation}
-		a \propto U[0,1.5], \ \ \ m \propto U[0,1.5]  \ \ \ \text{y} \ \ \ \sigma \propto U[0,0.5]
+		a \propto U[0,1.5], \ \ \ b \propto U[0,1.5]  \ \ \ \text{y} \ \ \ \sigma \propto U[0,0.5]
 	\end{equation}
 
-Considerando que existen valores de $a$, $m$ y $\sigma$ para los cuales los datos se fijan mejor 
+Considerando que existen valores de $a$, $b$ y $\sigma$ para los cuales los datos se fijan mejor 
 (tal que el posterior es m\'aximo global), entonces de \eqref{GLik} podemos escribir el Likelihood de nuestro sistema como 
 
 	\begin{equation}
 		L(D;recta)\propto \exp\left[-\frac{(y_d-y)^2}{2\sigma}\right].
 	\end{equation}
+donde $y_d$ son nuestros datos.
 
 Con esto ya podemos generar nuestras MCMC utilizando el MHA. Para \'esto hicimos uso del 
 m\'odulo PyMC3 [ref] ya implementado en Python que nos permite emplear este m\'etodo de forma m\'as sencilla. 
 Para el lector interesado, el c\'odigo puede encontrarse en [ref]. En nuestro an\'alisis corrimos un total de 
 6 cadenas con 10,000 pasos cada una. Nuestro resultado obtenido puede verse en la tabla \ref{tabla1} y la 
-figura \ref{chain}. Como podemos ver en el lado izquierdo de la figura, existen regiones para las cuales 
+figura \ref{fig:chains}. Como podemos ver en el lado izquierdo de la figura, existen regiones para las cuales 
 la frecuencia de eventos en nuestro muestreo se ve incrementada. De esta manera, podemos decir que 
 dichas regiones poseen un posterior m\'as probable para ajustarse a nuestros datos. De hecho, de la 
 tabla \ref{tabla1} podemos observar que los valores reales para $a$ y $b$ parecen encuentrarse dentro 
@@ -1054,7 +1056,7 @@ criterio de Gelman-Rubin para la convergencia de las cadenas.}}
 \begin{figure}[ht] 
 \includegraphics[trim = 1mm  1mm 1mm 1mm, clip, width=15.cm, height=8cm]{chain.png}
 \caption{Resultados obtenidos de nuestro muestreo de pasos en nuestras cadenas de Markov}% \citep{LiddleLyth}.}
-\label{fig:chain}
+\label{fig:chains}
 \end{figure}
 
 
