@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 FEB 2018 00:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 FEB 2018 17:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -494,6 +494,9 @@ LaTeX Warning: Label `fig:chain' multiply defined.
 
 LaTeX Warning: Label `fig:chain' multiply defined.
 
+
+LaTeX Warning: Label `Fig:cmb_sh' multiply defined.
+
 )
 \openout1 = `cosmo_stats.aux'.
 
@@ -624,17 +627,17 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 554.
  [8]
-<SNs.pdf, id=210, 1011.78pt x 505.89pt>
-File: SNs.pdf Graphic file (type pdf)
- <use SNs.pdf>
-Package pdftex.def Info: SNs.pdf used on input line 573.
-(pdftex.def)             Requested size: 284.53154pt x 142.26576pt.
+<SN_models.pdf, id=210, 1011.78pt x 505.89pt>
+File: SN_models.pdf Graphic file (type pdf)
+ <use SN_models.pdf>
+Package pdftex.def Info: SN_models.pdf used on input line 573.
+(pdftex.def)             Requested size: 398.34416pt x 199.17207pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 588--599
 
  []
 
-[9 <./SNs.pdf>]
+[9 <./SN_models.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 637--644
 
  []
@@ -644,10 +647,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 959--968
 
  []
 
+[14]
 
-LaTeX Warning: Reference `data' on page 14 undefined on input line 986.
+LaTeX Warning: Reference `data' on page 15 undefined on input line 986.
 
-[14] <data.png, id=291, 499.1448pt x 373.8768pt>
+<data.png, id=890, 499.1448pt x 373.8768pt>
 File: data.png Graphic file (type png)
  <use data.png>
 Package pdftex.def Info: data.png used on input line 990.
@@ -656,7 +660,7 @@ Package pdftex.def Info: data.png used on input line 990.
 
 LaTeX Warning: Reference `chain' on page 15 undefined on input line 1020.
 
-[15 <./data.png>] <chain.png, id=307, 859.21pt x 425.59pt>
+[15 <./data.png>] <chain.png, id=905, 859.21pt x 425.59pt>
 File: chain.png Graphic file (type png)
  <use chain.png>
 Package pdftex.def Info: chain.png used on input line 1055.
@@ -665,13 +669,13 @@ Package pdftex.def Info: chain.png used on input line 1055.
 
 LaTeX Warning: Reference `confidence' on page 16 undefined on input line 1070.
 
-<cab.png, id=309, 385.44pt x 275.0275pt>
+<cab.png, id=907, 385.44pt x 275.0275pt>
 File: cab.png Graphic file (type png)
  <use cab.png>
 Package pdftex.def Info: cab.png used on input line 1073.
 (pdftex.def)             Requested size: 142.26665pt x 142.26709pt.
 
-<cas.png, id=311, 398.48875pt x 275.0275pt>
+<cas.png, id=909, 398.48875pt x 275.0275pt>
 File: cas.png Graphic file (type png)
  <use cas.png>
 Package pdftex.def Info: cas.png used on input line 1074.
@@ -681,15 +685,29 @@ File: cas.png Graphic file (type png)
 Package pdftex.def Info: cas.png used on input line 1075.
 (pdftex.def)             Requested size: 142.25835pt x 142.26709pt.
 
+[16 <./chain.png>] <constraints.pdf, id=921, 542.77708pt x 412.14282pt>
+File: constraints.pdf Graphic file (type pdf)
+
+<use constraints.pdf>
+Package pdftex.def Info: constraints.pdf used on input line 1088.
+(pdftex.def)             Requested size: 227.62524pt x 142.2586pt.
+ <constraints_1.pdf, id=923, 533.4555pt x 404.26752pt>
+File: constraints_1.pdf Graphic file (type pdf)
+
+<use constraints_1.pdf>
+Package pdftex.def Info: constraints_1.pdf used on input line 1089.
+(pdftex.def)             Requested size: 227.61504pt x 142.26065pt.
+
 No file cosmo_stats.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[16 <./chain.png>] [17 <./cab.png> <./cas.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1087.
- (./cosmo_stats.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1087.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1087.
+[17 <./cab.png> <./cas.png> <./constraints.pdf> <./constraints_1.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1102.
+
+(./cosmo_stats.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1102.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1102.
 
 Package rerunfilecheck Info: File `cosmo_stats.out' has not changed.
 (rerunfilecheck)             Checksum: 6702321327144D658C6FB6F36E197B4D;2086.
@@ -702,10 +720,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10507 strings out of 493014
- 150841 string characters out of 6133351
- 264174 words of memory out of 5000000
- 13788 multiletter control sequences out of 15000+600000
+ 10518 strings out of 493014
+ 151086 string characters out of 6133351
+ 264177 words of memory out of 5000000
+ 13796 multiletter control sequences out of 15000+600000
  18709 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,39p,916b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -724,15 +742,17 @@ texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on cosmo_stats.pdf (17 pages, 509840 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on cosmo_stats.pdf (17 pages, 767856 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
- 105 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1043 PDF objects out of 1200 (max. 8388607)
+ 375 compressed objects within 4 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 324 words of extra memory for PDF output out of 10000 (max. 10000000)
 
