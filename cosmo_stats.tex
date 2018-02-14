@@ -546,17 +546,10 @@ a gran escala. En este art\'iculo nos enfocaremos en las supernovas.
 
 Por m\'as de casi dos d\'ecadas las observaciones en las supernovas han proporcionado 
 evidencia decisiva de que la expansi\'on actual del universo se encuentra en una etapa de 
-<<<<<<< HEAD
 aceleramiento. En particular estudios de supernovas tipo IA, consideradas como velas est\'andar:
 \'estas tienen la propiedad de poseer la misma luminosidad intr\'inseca con alta presici\'on, hasta un factor 
 de reescalamiento. Por tanto, la aceleraci\'on actual sugiere de la existencia de una componente ex\'otica
 o la posibilidad de teor\'ias alternativas, las cuales producir\'ian tal efecto. Algunos ejemplos 
-=======
-aceleramiento. En particular estudios de supernovas tipo IA consideradas como velas est\'andar:
-ellas tiene la propiedad de poseer la misma luminosidad intr\'inseca con alta presici\'on, hasta un factor 
-de reescalamiento. Por tanto, la aceleraci\'on actual sugiere de la existencia de una componente ex\'otica
-o la posibilidad de teor\'ias alternativas las cuales producir\'ian tal efecto. Algunos ejemplos 
->>>>>>> 167ec2591c86377c0a2e4f342f8f60b4ce4745d2
 de detecciones de supernovas tipo IA que son importantes por mencionar, incluyen:
 
 	\begin{itemize}
@@ -1004,23 +997,21 @@ de la recta $y=1+x$ con un ruido gaussiano con desviaci\'on estandar $\sigma = 0
 
 Ahora bien, supongamos que estamos interesados en conocer el valor de los par\'ametros 
 $a$ y $b$ de nuestra recta $y=a+bx$, por lo que nos gustar\'ia estimar dichos par\'ametros 
-mediante un proceso de inferencia Bayesiana. Tambi\'en es posible estimar cual es la desviaci\'on 
-estandar de nuestro conjunto de datos a lo largo de la recta, lo que nos agregar\'ia un par\'ametro 
-$\sigma$ extra por estimar. Si consideramos que en principio no conocemos nada sobre el valor de 
+mediante un proceso de inferencia Bayesiana. Si consideramos que en principio no conocemos nada sobre el valor de 
 nuestros par\'ametros libres, salvo las cotas l\'imite en que \'estos deber\'ian estar, un buen prior para 
 comenzar nuestra inferencia Bayesiana ser\'ia el considerar distribuciones planas. Para esto comenzaremos considerando los priors
 %
 	\begin{equation}
-		a \propto U[0,1.5], \ \ \ b \propto U[0,1.5]  \ \ \ \text{y} \ \ \ \sigma \propto U[0,0.5]
+		a \propto U[0,1.5], \ \ \ \text{y} \ \ \ b \propto U[0,1.5].
 	\end{equation}
 
 Considerando que existen valores de $a$, $b$ y $\sigma$ para los cuales los datos se fijan mejor 
 (tal que el posterior es m\'aximo global), entonces de \eqref{GLik} podemos escribir el Likelihood de nuestro sistema como 
 
 	\begin{equation}
-		L(D;recta)\propto \exp\left[-\frac{(y_d-y)^2}{2\sigma}\right].
+		L(D;recta)\propto \exp\left[-\frac{(y_d-y)^2}{2\sigma_d}\right].
 	\end{equation}
-donde $y_d$ son nuestros datos.
+donde $y_d$ son nuestros datos y $\sigma_d$ los errores estimados de nuestras mediciones.
 
 Con esto ya podemos generar nuestras MCMC utilizando el MHA. Para \'esto hicimos uso del 
 m\'odulo PyMC3 \cite{PyMC3} ya implementado en Python que nos permite emplear este m\'etodo de forma m\'as sencilla. 
@@ -1030,8 +1021,7 @@ figura \ref{fig:chains}. Como podemos ver en el lado izquierdo de la figura, exi
 la frecuencia de eventos en nuestro muestreo se ve incrementada. De esta manera, podemos decir que 
 dichas regiones poseen un posterior m\'as probable para ajustarse a nuestros datos. De hecho, de la 
 tabla \ref{tabla1} podemos observar que los valores reales para $a$ y $b$ parecen encuentrarse dentro 
-de una desviaci\'on est\'andar del valor promedio estimado para estos par\'ametros, mientras que el valor 
-real de $\sigma$ parece encontrarse ligeramente por arriba. Adicionalmente se obtuvo el valor del criterio 
+de una desviaci\'on est\'andar del valor promedio estimado para estos par\'ametros. Adicionalmente se obtuvo el valor del criterio 
 de convergencia de Gelman-Rubin  para cada variable con la intenci\'on de verificar que nuestros resultados 
 obtenidos han convergido. Como podemos ver este n\'umero es muy cercano a la unidad, por lo que nuestro 
 criterio de convergencia se cumple.
@@ -1042,13 +1032,10 @@ criterio de convergencia se cumple.
  \hline
  & \textbf{Promedio} & \textbf{Desv. Est.} & \textbf{Gelman-Rubin} \\ [0.5ex] 
  \hline\hline
-$a$ & 0.957023 & 0.075513 & 0.99999 \\
+$a$ & 0.99057 & 0.034329 & 1.00029 \\
 \hline
-$b$ & 1.059392 & 0.062649 & 1.00029\\
+$b$ & 1.00467 & 0.03591 & 1.00026\\
 \hline
-$\sigma$ & 0.374450 & 0.060069 & 1.00027
- \\ [1ex] 
- \hline
 \end{tabular}
 \caption{\footnotesize{Promedios obtenidos tras nuestra inferencia Bayesiana. Se calcula tambi\'en el 
 criterio de Gelman-Rubin para la convergencia de las cadenas.}}
@@ -1066,7 +1053,7 @@ criterio de Gelman-Rubin para la convergencia de las cadenas.}}
 \label{fig:chains}
 \end{figure}
 
-Para ejemplificar los resultados obtenidos mediante este m\'etodo, podemos graficar la recta te\'orica considerando los valores promediados de nuestros par\'ametros proporcionados en la tabla \ref{tabla1}. En la figura \ref{fig:datastr} podemos observar esta gr\'afica. Como podemos observar, a pesar de que nuestra curva inferida por nuestro m\'etodo Bayesiano no coincide exactamente con la recta real, \'esta parece ajustar bastante bien nuestros datos. Por supuesto, esto se debe al hecho de que al contar con tan pocos datos, a\'un hay mucha ambig\"uedad en los par\'ametros que pueden ajustar relativamente bien a los datos. 
+Para ejemplificar los resultados obtenidos mediante este m\'etodo, podemos graficar la recta te\'orica considerando los valores promediados de nuestros par\'ametros proporcionados en la tabla \ref{tabla1}. En la figura \ref{fig:datastr} podemos observar esta gr\'afica. Como podemos observar, a pesar de que nuestra curva inferida por nuestro m\'etodo Bayesiano no coincide exactamente con la recta real, \'esta parece ajustar bastante bien nuestros datos. Por supuesto, esto se debe al hecho de que al contar con tan pocos datos, a\'un hay cierta ambig\"uedad en los par\'ametros que pueden ajustar relativamente bien a los datos. 
 
 \begin{figure}[ht] 
 \includegraphics[trim = 1mm  1mm 1mm 1mm, clip, width=8.cm, height=5cm]{datastr.png}
@@ -1083,13 +1070,11 @@ Para ejemplificar los resultados obtenidos mediante este m\'etodo, podemos grafi
 %\end{minipage}
 %\\ $ $
 
-Finalmente s\'olo resta mostrar las t\'ipicas regiones de confidencia para nuestros par\'ametros. Las regiones que son usuales mostrar son aquellas que corresponden a un m\'ultiplo de desviaciones estandar de los par\'ametros de inter\'es. En la figura \ref{confidence} mostramos las t\'ipicas regiones de confidencia a 1-4 $\sigma$. Adem\'as hemos graficado en color rojo los valores reales de nuestros par\'ametros. Lo que podemos observar r\'apidamente es que ninguno de estos se encuentra alejado a m\'as de 2 $\sigma$s del m\'aximo estimado. Por supuesto, la raz\'on de esta discrepancia es debido a que s\'olo contamos con 25 datos para hacer nuestra inferencia Bayesiana; de contar con m\'as, nuestros resultados deber\'ian ser m\'as precisos y podr\'iamos ser capaces de acotar en una regi\'on muy peque\~na los posibles valores que nuestros par\'ametros podr\'ian tener.  
+Finalmente s\'olo resta mostrar las t\'ipicas regiones de confidencia para nuestros par\'ametros. Las regiones que son usuales mostrar son aquellas que corresponden a un m\'ultiplo de desviaciones estandar de los par\'ametros de inter\'es. En la figura \ref{confidence} mostramos las t\'ipicas regiones de confidencia a 1-4 $\sigma$. Adem\'as hemos graficado en color rojo el valor real para nuestros par\'ametros. Lo que podemos observar r\'apidamente es que el valor real de nuestros par\'ametros se encuentran a menos de una desviaci\'on estandar del valor estimado por nuestro m\'etodo de inferencia. Por supuesto, la raz\'on de esta discrepancia es debido a que s\'olo contamos con 25 datos para hacer nuestra inferencia Bayesiana; de contar con m\'as, nuestros resultados deber\'ian ser m\'as precisos y podr\'iamos ser capaces de acotar en una regi\'on muy peque\~na los posibles valores que nuestros par\'ametros podr\'ian tener.  
 
 \begin{figure}[ht] 
-\includegraphics[trim = 1mm  1mm 1mm 1mm, clip, width=5.cm, height=5cm]{cab.png}
-\includegraphics[trim = 1mm  1mm 1mm 1mm, clip, width=5.cm, height=5cm]{cas.png}
-\includegraphics[trim = 1mm  1mm 1mm 1mm, clip, width=5.cm, height=5cm]{cas.png}
-\caption{Regiones de confidencia en 2D para nuestros par\'ametros $a$, $b$ y $\sigma$. Graficamos los contornos a 1-4 $\sigma$.}% \citep{LiddleLyth}.}
+\includegraphics[trim = 1mm  1mm 1mm 1mm, clip, width=6.cm, height=6cm]{cab.png}
+\caption{Regiones de confidencia en 2D para nuestros par\'ametros $a$ y $b$. Graficamos los contornos a 1-4 $\sigma$.}% \citep{LiddleLyth}.}
 \label{confidence}
 \end{figure}
 
