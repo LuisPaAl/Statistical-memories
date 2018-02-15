@@ -87,19 +87,19 @@ En este art\'iculo revisaremos los fundamentos b\'asicos para incursionarnos al 
 %%============================================================%%
 
 
-La descripci\'on est\'andar de las propiedades din\'amicas del Universo se basa en la teror\'ia 
-de la Relatividad General de Einstein, la cual construye una conecci\'on entre la geometr\'ia del 
+La descripci\'on est\'andar de las propiedades din\'amicas del Universo se basa en la teor\'ia 
+de la Relatividad General de Einstein, la c\'ual construye una conecci\'on entre la geometr\'ia del 
 espacio-tiempo y su contenido de materia a trav\'es de cantidades fundamentales, como son el 
 tensor de Einstein $G_{\mu \nu}$ y el tensor de Energ\'ia-momento $T_{\mu \nu}$
 %
-	\beq
+	\beq  \label{eq:Ricci}
 		G_{\mu \nu} \equiv R_{\mu \nu} - \frac{1}{2}g_{\mu \nu}R =  8\pi G T_{\mu \nu}.
 	\eeq
  
  \noindent
 La parte izquierda de la igualdad describe la geometr\'ia del espacio-tiempo englobada en las 
 componentes del tensor de Ricci $R_{\mu \nu}$, el escalar de Ricci $R$ y la m\'etrica del espacio-tiempo
-$g_{\mu \nu}$. \'Estas en conjunto dirigen el comportamiento de los constituyentes $T_{\mu \nu}$ del universo.
+$g_{\mu \nu}$. \'Estas en conjunto dirigen el comportamiento de los constituyentes $T_{\mu \nu}$ del Universo.
 Una modificaci\'on aceptable a las ecuaciones de Einstein es la introducci\'on de una  invariante
 bajo transformaciones de Lorentz $\Lambda g_{\mu \nu}$ en las ecuaciones de campo
 %
@@ -109,9 +109,9 @@ bajo transformaciones de Lorentz $\Lambda g_{\mu \nu}$ en las ecuaciones de camp
 %
 donde $\Lambda$ es la denominada constante cosmol\'ogica y su valor, de acuerdo con observaciones astrof\'isicas,
 es $\Lambda \sim10^{-52} m^{-2}$; veremos un poco m\'as acerca de esta componente en la siguiente secci\'on.
-Las ecuaciones (\ref{eq:Einstein}) son, en general, un conjunto de ecuaciones diferenciales parciales acopladas 
+El sistema de ecuaciones (\ref{eq:Einstein}) son, en general, un conjunto de ecuaciones diferenciales parciales acopladas 
 cuasi-lineares y de segundo orden para los diez elementos del tensor m\'etrico. Sin embargo, \'estas pueden 
-presentar soluciones anal\'iticas simples en la presencia de simetr\'ias gen\'ericas, como veremos mas adelante.
+presentar soluciones anal\'iticas simples en la presencia de simetr\'ias gen\'ericas, como veremos a continuaci\'on.
 
 
 
@@ -121,21 +121,21 @@ presentar soluciones anal\'iticas simples en la presencia de simetr\'ias gen\'er
 
 
 Para poder especificar la geometr\'ia del Universo, una suposici\'on escencial es el \textit{Principio Cosmol\'ogico}:
-cuando se promedia sobre escalas suficientemente grandes, a un tiempo particular, el Universo observable 
-puede considerarse como \textit{Homog\'eneo e Isotr\'opico} con gran presici\'on.
-Por ejemplo, en escalas superiores a $100$ Mega-parsecs\footnote{1 parsec (pc) $\simeq 3.261$ a\~nos luz} 
+a escalas suficientemente grandes, a un tiempo particular, el Universo observable 
+puede considerarse como \textit{Homog\'eneo e Isotr\'opico} con gran precisi\'on.
+Por ejemplo, en escalas superiores a $100$ Mega-parsecs\footnote[1]{1 parsec (pc) $\simeq 3.261$ a\~nos luz} 
 la distribuci\'on de galaxias observadas sobre la esfera celeste justifica la suposici\'on de isotrop\'ia. 
 %
 Adem\'as de esto, la uniformidad
 observada en la distribuci\'on de temperaturas [una parte en $10^5$] medida a trav\'es de la radiaci\'on C\'osmica en el Fondo de
-Microondas (CMB) es la mejor evidencia observacional que tenemos a favor de un 
-Universo isotr\'opico. Por tanto, s\'i la isotrop\'ia se da por sentado y teniendo en cuenta que nuestra
+Microondas (CMB) es la mejor evidencia observacional que tenemos a favor de una 
+isotrop\'ia universal. Por tanto, s\'i la isotrop\'ia se da por sentado y teniendo en cuenta que nuestra
 posici\'on ocupada en el Universo no tiene preferencia sobre ninguna otra -conocido como el \textit{Principio 
-Copernicano}- por tanto homogeneidad se sigue de considerar isotrop\'ia en cada punto.
+Copernicano}- por tanto la homogeneidad se sigue de considerar isotrop\'ia en cada punto.
  \\
  
  	\fbox{
-	 	\parbox[c][2.cm][c]{0.95\textwidth\linespread{1.5}\selectfont{}}
+	 	\parbox[c][1.cm][c]{0.95\textwidth\linespread{1.5}\selectfont{}}
 			{
 			\textbf{Homogeneidad} establece que el Universo se observa por igual en cada punto del espacio. \par
 			\textbf{Isotrop\'ia} establece que el Universo se observa por igual en todas las direcciones.
@@ -152,25 +152,19 @@ Copernicano}- por tanto homogeneidad se sigue de considerar isotrop\'ia en cada 
 
 Vamos a incorporar los postulados de Homogeneidad e Isotrop\'ia en la descripci\'on geom\'etrica del Universo. 
 El primero demanda que todos lo puntos sobre una hiper-superficie espacial sean equivalentes,
-mientras que el segundo asegura que todas las direcciones sobre dicha hiper-superficie son 
+mientras que el segundo asegura que todas las direcciones sobre dicha hiper-superficie tambi\'en son 
 equivalentes para observadores fundamentales. Esto es, isotrop\'ia requiere que la distribuci\'on 
 de galaxias a dos tiempos distintos sea similar, mientras que la homogeneidad requiere
 que el factor de magnificaci\'on deba ser independiente de la posici\'on de la distribuci\'on. 
-%Por lo tanto, se sigue que la m\'etrica deba tener la siguiente forma.
-%%
-%	\beq \label{eq:FRW}
-%		ds^2 = g_{\mu \nu} dx^\mu dx^\nu = dt^2 - a^2(t)\gamma_{ij}dx^i dx^j,
-%	\eeq
 %
-%donde $a(t)$ es una funci\'on - comúnmente denominada como {\it factor de escala normalizado} - 
-%cuya dependencia solo es temporal.
-Adem\'as, a trav\'es de los a\~nos, observaciones cosmológicas han dado evidencia contundente de  que 
+Adem\'as, a trav\'es de los a\~nos, observaciones cosmol\'ogicas han dado evidencia contundente de  que 
 el Universo actual se encuentra en un per\'iodo de expansi\'on. 
 %y por tanto el factor de escala satisface 
 %la condici\'on $\dot a(t)>0$.
 %
-De esta manera es preciso describir nuestro Universo con una m\'etrica que contenga toda esta informaci\'on.  \'Esta m\'etrica que describe este Universo sobre las escalas m\'as grandes se le conoce
-como m\'etrica de Friedmann-Robertson-Walker (FRW)
+De esta manera es preciso describir nuestro Universo con una m\'etrica que contenga toda esta informaci\'on.  
+\'Esta m\'etrica que describe las escalas m\'as grandes se le conoce
+como m\'etrica de Friedmann-Robertson-Walker (FRW), y esta dada por el siguiente intervalo
 %Por otro lado, el tensor $\gamma_{ij}$ contiene solo funciones dependientes de las coordenadas.
 %Adem\'as, el espacio-tiempo que cumple con las propiedades de homogeneidad e isotr\'opia es aquel
 %cuyas propiedades quedan especificadas con tan solo una constante - la \textit{curvatura} $K$.
@@ -188,22 +182,31 @@ como m\'etrica de Friedmann-Robertson-Walker (FRW)
 		ds^2 = dt^2 - a^2(t)\left[\frac{dr^2}{1-Kr^2} + r^2d\Omega^2 \right].
 	\eeq
 %
-donde $r$ es la coordenada radial y $d\Omega^2 = d\theta^2 + \sin^2 \theta d\phi^2$ es la m\'etrica de la 2-esfera. El t\'ermino $a(t)$ es conocido como el factor de escalar normalizado y representa el factor de magnificaci\'on de nuestro Universo. N\'otese que para obtener un Universo en expansi\'on es necesario que $\dot a(t)>0$.
-La constante $K$ describe la geometr\'ia de las secciones espaciales y dependiendo del valor $K>0, K=0$ o $K<0$
+donde $r$ es la coordenada radial y $d\Omega^2 = d\theta^2 + \sin^2 \theta d\phi^2$ es la m\'etrica de la 2-esfera. 
+Al t\'ermino $a(t)$ se le conoce como el factor de escala normalizado y representa la funci\'on 
+de magnificaci\'on de nuestro Universo. N\'otese que para obtener un Universo en expansi\'on 
+es necesario que $\frac{d a(t)}{dt}>0$. La constante $K$ describe la geometr\'ia de las secciones espaciales 
+y dependiendo del valor $K>0,~ K=0$ o $K<0$
 representa Universos tipo cerrado $\mathcal{S}^3$, plano $\mathcal{R}^3$ o abierto $\mathcal{H}^3$  respectivamente.
 %
 Considerando la m\'etrica $g_{\mu \nu}$ de la forma (\ref{eq:FRW3}), los \'unicos t\'erminos de curvatura distintos de cero son
 %
-	\begin{eqnarray}
-		R^0_0 &=& -\frac{3\ddot a}{a},\label{eq:curvs1} \label{eq:R1}\\
-		R^i_j &=& \left(\frac{\ddot a}{a}+\frac{2\dot a^2}{a^2} +
-				  \frac{2\kappa}{a^2} \right)\delta^i_j, \label{eq:R2}\\
-		R     &=& 6 \left(\frac{\ddot a}{a} +\frac{\dot a^2}{a^2}+ 
+	\begin{eqnarray} \label{eq:R_FRW}
+		R^0_0 &=& -\frac{3\ddot a}{a},\label{eq:curvs1}  \qquad
+		R^i_j = \left(\frac{\ddot a}{a}+\frac{2\dot a^2}{a^2} +
+				  \frac{2\kappa}{a^2} \right)\delta^i_j, \label{eq:R2} \qquad
+		R     = 6 \left(\frac{\ddot a}{a} +\frac{\dot a^2}{a^2}+ 
 				  \frac{\kappa}{a^2} \right). \label{eq:R3}
 	\end{eqnarray}
 
+o,  a partir de (\ref{eq:Ricci}) y (\ref{eq:R_FRW}), el tensor de Einstein esta dado por
 
-Por tanto, la din\'amica del espacio-tiempo en un universo homogeneo e isotr\'opico se reduce a determinar
+	\begin{equation}
+		G^0_0 = 3 \left[ \left( \frac{\dot a}{a} \right)^2 + \frac{K}{a^2} \right], \qquad 
+				G^i_j =\left[2\frac{\ddot a}{a} + \left( \frac{\dot a}{a} \right)^2  + \frac{K}{a^2}\right]\delta^i_j.
+	\end{equation}
+
+Por tanto, la din\'amica del espacio-tiempo en un universo homog\'eneo e isotr\'opico se reduce a determinar
 el factor de escala normalizado $a(t)$, el cual se calcula una vez que el contenido de materia queda especificado.
 
 
@@ -212,47 +215,48 @@ el factor de escala normalizado $a(t)$, el cual se calcula una vez que el conten
 %%============================================================%%
 
 
-La geomtetr\'ia del espacio-tiempo queda determinada por las ecuaciones (\ref{eq:R1})-(\ref{eq:R3}) y por tanto 
-para resolver las ecuaciones de Einstein solo falta especificar el contenido de materia. 
+Una vez que se ha especificado la geomtetr\'ia del espacio-tiempo solo falta definir el contenido de materia  
+para resolver las ecuaciones de Einstein. 
 Consideraremos a los \textit{fluidos perfectos} ideales como la principal fuente del tensor
 de energ\'ia-momento
 %
 	\beq
-		T^{\mu \nu} = (\rho + p)u^\mu u^\nu - p g_{\mu \nu},
+		T^{\mu \nu} = (\rho + p)u^\mu u^\nu - p g^{\mu \nu},
 	\eeq
 %
 donde $\rho$ es la densidad de energ\'ia y $p$ es la presi\'on isotr\'opica del fluido, ambas
 medidas por un observador en el sistema de referencia inercial local, en el cual el fluido
-se encuentra en reposo. En este sistema, donde la 4-velocidad del fluido es $u^{\mu}=(1,0,0,0)$,
+se encuentra en reposo. En \'este sistema, donde la 4-velocidad del fluido es $u^{\mu}=(1,0,0,0)$,
 el tensor de energ\'ia-momento se reduce a $T^{\mu}_\nu=diag(-\rho, g^{ii}p)$. 
 %
-A partir de \'este, se puede obtener la conservaci\'on de la energ\'ia $\nabla_\mu T^\mu_\nu=0$,
-la cual gu\'ia a la ecuaci\'on de continuidad
+La componente $00$ de Einstein nos proporciona la ecuaci\'on de Friedmann
 %
-	\beq
+	\beq \label{eq:Fried}
+		\left(\frac{\dot a}{a}\right)^2 = \frac{8\pi G}{3} \rho - \frac{k}{a^2} + \frac{\Lambda}{3}.
+	\eeq
+
+
+Por otro lado, dado $T^{\mu}_\nu$ se puede obtener la conservaci\'on de la energ\'ia a partir de $\nabla_\mu T^\mu_\nu=0$,
+la cual conlleva a la ecuaci\'on de continuidad
+%
+	\beq \label{eq:conti}
 		\dot \rho + 3 \frac{\dot a }{a}(\rho + p) = 0.
 	\eeq 
 
 \noindent
-Para poder entender las propiedades din\'amicas del Universo, se necesita primero tener en cuenta
+Para poder entender las propiedades din\'amicas del Universo, primero se necesita tener en cuenta
 el contenido total de \'este. Nuestro enfoque se basa en los fluidos perfectos barotr\'opicos que satisfacen 
-una {\it ecuaci\'on de estado} dependiente del tiempo $w(a)$ de la forma
-%
-	\beq
-		p = w(a)\rho,
-	\eeq
-
-\noindent
-para cualquier componente. Si adem\'as se considera $w$ igual a una constante, la ecuaci\'on de continuidad 
+una {\it ecuaci\'on de estado} dependiente del tiempo $w(a)$ de la forma $p = w(a)\rho,$
+para cualquier componente. Si adem\'as se considera $w$ igual a una constante, la ecuaci\'on de continuidad (\ref{eq:conti})
 puede ser integrada f\'acilmente para obtener
 %
-	\beq
+	\beq 
 		\rho \propto a^{-3(1+w)}.
 	\eeq
 
 \noindent
 Adem\'as, en un Universo dominado por la densidad de energ\'ia $\rho$ la 
-ecuaci\'on de Friedmann nos lleva a la evoluci\'on temporal del factor de escala
+ecuaci\'on de Friedmann (\ref{eq:Fried}) nos lleva a la evoluci\'on temporal del factor de escala
 %
 	\beq
 		a \propto t^{2/3(1+w)}, \qquad  w\neq -1.
@@ -263,7 +267,7 @@ Esto es, la evoluci\'on del Universo cuya \'unica componente es un fluido perfec
 vez especificada su ecuaci\'on de estado. El modelo de materia oscura fr\'ia con constante
 cosmol\'ogica ($\Lambda$CDM) se basa en cuatro ingredientes principales descritos por: la 
 radiaci\'on (fot\'ones y neutrinos sin masa), materia en forma de bariones y una contribuyente de materia
-oscura fria (DM) y la energ\'ia del vacio $\Lambda$. El comportamiento de cada uno de estos
+oscura fr\'ia (DM) y la energ\'ia del vac\'io $\Lambda$. El comportamiento de cada uno de estos
 constituyentes se resume de la siguiente manera:
 
 
@@ -282,7 +286,7 @@ $w_r=1/3$. Adem\'as la evoluci\'on de la densidad de energ\'ia y el factor de es
 	\eeq
 	
 \noindent
-La densidad de energ\'ia de la radiaci\'on $\rho_r$ total en el Universo puede describirse en t\'erminos
+La densidad de energ\'ia de la radiaci\'on total en el Universo puede describirse en t\'erminos
 de dos contribuyentes principales: fotones ($\gamma$) y neutrinos sin masa ($\nu$):
 %
 	\beq
@@ -291,12 +295,12 @@ de dos contribuyentes principales: fotones ($\gamma$) y neutrinos sin masa ($\nu
 
 \textit{Fotones}. Los fotones primordiales juegan un papel muy importante en la cosmolog\'ia 
 observacional  ya que ellos constituyen la radiaci\'on c\'osmica en el fondo de microondas que observamos
-hoy en d\'ia \cite{alguna cita}
+hoy en d\'ia \jav{ \cite{alguna cita}}
 \\
 
 \textit{Neutrinos sin masa}. Los neutrinos son clasificados como leptones d\'ebilmente interactuantes los cuales existen
 en tres sabores: electr\'on $\nu_e$, muon $\nu_\mu$ y tau $\nu_\tau$; todos ellos tienen asociado una antipart\'icula. 
-La densidad de energ\'ia  de los neutrinos sin masa en el fondo c\'osmico (estimada a partir de argumentos te\'oricos) esta
+La densidad de energ\'ia  de los neutrinos que permea el cosmos (estimada a partir de argumentos te\'oricos) esta
 dada por 
 %
 	\beq \label{eq:nu}
@@ -305,10 +309,10 @@ dada por
 
 \noindent
 donde $N_{\rm eff}$ es el n\'umero efectivo de especies de neutrinos; n\'otese que considerando el modelo est\'andar se tiene $N_{\rm eff}=3.046$.
-Recientemente varios experimentos sugieren que los neutrinos efectivamente si poseen 
+Recientemente varios experimentos sugieren que los neutrinos efectivamente poseen 
 una masa aunque muy peque\~na, por ejemplo experimentos que detectan neutrinos atmosf\'ericos o neutrinos solares.
 Aunado a esto, obervaciones cosmol\'ogicas tambi\'en pueden imponer l\'imites en las masas de los neutrinos; algunos art\'iculos
-de revisi\'on sobre el tema [].
+de revisi\'on sobre el tema \jav{\cite{algo}}.
 
 
 %%------------------------------------------------------------------------------------------------%%
@@ -327,29 +331,29 @@ El contenido total de materia del universo viene en diferentes formas,  por ejem
 com\'unmente conocemos y observamos en el laboratorio, observaciones en la estructura del Universo a gran escala 
 sugieren que la mayor cantidad del contenido gal\'actico es de la forma de alg\'un tipo no-bari\'onico de materia, denominada 
 como \textit{materia oscura}. 
-La densidad de materia total puede expresarse como la suma de las contribuciones barionicas (b)
+La densidad de materia total puede expresarse como la suma de las contribuciones bari\'onicas (b)
 y de materia oscura (DM)
 %
 	\beq
 		\rho_m(t) = \rho_{\rm b}(t) + \rho_{DM}(t).
 	\eeq
 
-\textit{Bariones}. Son las bases de la materia que f\'acilmente localizamos alrededor de nuestro universo 
+\textit{Bariones}. Son las bases de la materia que f\'acilmente localizamos alrededor de nuestro entorno 
 (protones $p^\texttt{+}$ y neutrones $n^0$).
 Adem\'as si consideramos que el Universo como un todo tiene una carga total neutra, por tanto debe de haber 
-un n\'umero igual de protones que de electrones ($e^-$ - leptones cargados). 
-Un art\'iculo de revisi\'on sobre la formaci\'on de elementos en el bing bang puede encontrarse en [].
+un n\'umero igual de protones que de electrones ($e^\texttt{-}$ - leptones cargados). 
+Un art\'iculo de revisi\'on sobre la formaci\'on de elementos en el bing bang puede encontrarse en \jav{cite{}}.
 \\
 
 
 
-\textit{Materia oscura}. La existencia de materia oscura no-bari\'onica puede ser inferida a 
+\textit{Materia oscura}. La existencia de materia oscura en forma no-bari\'onica puede ser inferida a 
 partir de manifestaciones gravitacionales a trav\'es de, por ejemplo, el comportamiendo 
 aplanado detectado en las curvas de rotaci\'on de diversas galaxias espirales, la
 raz\'on masa-luz observada en c\'umulos de galaxias y la distorci\'on de la luz proveniente 
 de fuentes lejanas medida por lentes gravitacionales.
  Una discuci\'on extensa sobre el estado actual de la materia oscura, incluyendo evidencia experimental
-y motivaciones te\'oricas es presentado por [].
+y motivaciones te\'oricas es presentado por \jav{\cite{}}.
 
 
 %%------------------------------------------------------------------------------------------------%%
@@ -358,20 +362,20 @@ y motivaciones te\'oricas es presentado por [].
 
 
 S\'i el t\'ermino de la constante cosmol\'ogica se mueve hacia el lado derecho de las ecuaciones de Einstein, 
-\'este puede ser asociado a la densidad de energ\'ia del vacio, dado por 
+\'este puede ser asociado a la densidad de energ\'ia del vac\'io, dado por 
 %
 	\beq
 		\rho_\Lambda \equiv \frac{\Lambda}{8\pi G}.
 	\eeq
 
 \noindent
-Extrapolando nuestras teor\'ias hacia el futuro. donde la materia y radiac\'on son diluidas debido a la expansi\'on del Universo, 
+Extrapolando nuestras teor\'ias hacia el futuro, donde la materia y la radiaci\'on son diluidas debido a la expansi\'on del Universo, 
 la densidad de energ\'ia del vac\'io permanece siempre con el mismo valor constante $\rho_\Lambda$.
-Este tipo de energ\'ia  puede ser modelada como un fluido perfecto con presi\'on negativa igual a $p_\Lambda =-\rho_\Lambda$,
+\'Este tipo de energ\'ia  puede ser modelada como un fluido perfecto con presi\'on negativa igual a $p_\Lambda =-\rho_\Lambda$,
 la cual tiene una ecuaci\'on de estado asociada $w_\Lambda=-1$. 
-La constante cosmol\'ogica se puede ver como la forma m\'as simple de una componente de \textit{energ\'ia oscura}, 
-com\'unmente considerada como el principal candidato para dar explicaci\'on de la aceleraci\'on actual del cosmos.
-En [] encuentran que una ecuaci\'on de estado dependiente del tiempo $w_{DE}(a)$ provee una mejor descripci\'on de las
+Por tanto la constante cosmol\'ogica puede verse como la forma m\'as simple de una componente de \textit{energ\'ia oscura}, 
+com\'unmente considerada como el principal candidato para la explicaci\'on de la aceleraci\'on actual del cosmos.
+En \jav{\cite{}} encuentran que una ecuaci\'on de estado dependiente del tiempo $w_{DE}(a)$ provee una mejor descripci\'on de las
 observaciones actuales. 
 
 
@@ -384,14 +388,15 @@ espacial, la c\'ual puede ser considera como cualquier otra componente
 si definimos una densidad de energ\'ia ficticia como  
 %
 	\beq
-		\rho_k \equiv -\frac{3k}{8\pi G}a^{-2}.
+		\rho_k \equiv -\frac{3K}{8\pi G}a^{-2}.
 	\eeq
 
 \noindent
-Por tanto esta densidad de energ\'ia queda descrita por una ecuaci\'on de estado $w_k=-1/3$ para la cual
-el factor de escala evoluciona proporcionalmente al tiempo c\'osmico $a\propto t$. El
-comportamiento general del t\'ermino de curvatura se entiende f\'acilmente si la ecuaci\'on de Friedmann
-se reescribe (sin considerar la constante cosmol\'ogica) de la siguiente manera
+Por tanto la densidad de energ\'ia correspondiente al t\'ermino de curvatura queda descrita por 
+una ecuaci\'on de estado $w_k=-1/3$ para la cual el factor de escala evoluciona proporcionalmente 
+al tiempo c\'osmico $a\propto t$. El comportamiento general del t\'ermino de curvatura se 
+entiende f\'acilmente si la ecuaci\'on de Friedmann se reescribe (sin considerar la constante cosmol\'ogica) 
+de la siguiente manera
 %
 	\beq \label{eq:curv}
 		\left( \frac{\dot a}{a} \right)^2 = \frac{8 \pi G}{3}(\rho+\rho_k).
@@ -399,12 +404,12 @@ se reescribe (sin considerar la constante cosmol\'ogica) de la siguiente manera
 
 \noindent
 Considerando que la densidad total del universo $\rho$ es positiva, la expansi\'on universal solamente puede detenerse 
-si la geometr\'ia de este es cerrada $k>0~ (\rho_k <0)$ o de cualquier otra manera el universo se expandir\'a por siempre. 
+si la geometr\'ia de este es cerrada $K>0~ (\rho_k <0)$ o de cualquier otra manera el universo se expandir\'a por siempre. 
 Notamos de la ecuaci\'on (\ref{eq:curv}) que para un p\'arametro de Hubble muy particular existe una densidad para la cual el Universo 
-posee una curvaruta plana ($k=0$), a este valor de la densidad se le conoce como la \textit{densidad cr\'itica}, y esta dada por
+posee una curvaruta plana ($K=0$), a \'este valor de la densidad se le conoce como la \textit{densidad cr\'itica}, y queda dada definida por
 %
 	\beq
-		\rho_c(t) = \frac{3H^2}{8 \pi G}.
+		\rho_c(t) \equiv \frac{3H^2}{8 \pi G}.
 	\eeq
 
 
@@ -413,23 +418,23 @@ posee una curvaruta plana ($k=0$), a este valor de la densidad se le conoce como
 %%============================================================%%
 
 Una vez que se ha especificado el contenido de materia toda la informaci\'on sobre la din\'amica del cosmos 
-queda englobada en el factor de escalar.
+queda englobada en el factor de escala.
 Por ejemplo, consideremos una expansi\'on en serie de Taylor del factor de escala alrededor del tiempo
 actual $t_0$
 %
 	\begin{eqnarray}
 		a(t) &=& a[t_0 - (t_0 - t)] \\
 		       &=& a(t_0) - (t_0-t)\dot a(t_0) + \frac{1}{2}(t_0 - t)\ddot a(t_0) - \cdots \\
-		       &=& a(t_0)[1 - (t_0-t)H(t_0)- \frac{1}{2}(t_0 - t)^2q(t_0)H^2(t_0)- \cdots]
+		       &=& a(t_0)[1 - (t_0-t)H(t_0)- \frac{1}{2}(t_0 - t)^2q(t_0)H^2(t_0)- \cdots],
 	\end{eqnarray}
 %
 donde se ha definido la funci\'on de Hubble $H(t)$ y la funci\'on de desaceleraci\'on $q(t)$ como
 %
 	\beq
-		H(t) \equiv \frac{\dot a (t)}{a(t)}, \qquad q(t) \equiv -\frac{\ddot a(t) a(t)}{\dot a^2(t)}
+		H(t) \equiv \frac{\dot a (t)}{a(t)}, \qquad q(t) \equiv -\frac{\ddot a(t) a(t)}{\dot a^2(t)}.
 	\eeq
 
-Los valores de estas funciones al d\'ia de hoy usualmente son denotados como $H_0\equiv H(t_0)$
+Los valores de estas funciones al d\'ia de hoy usualmente se denotan como $H_0\equiv H(t_0)$
 y $q_0 \equiv q(t_0)$.
 Tambi\'en podemos incluir la raz\'on de la densidad de energ\'ia relativa a la densidad cr\'itica del universo
 como el par\'ametro de densidad adimensional
@@ -441,10 +446,9 @@ como el par\'ametro de densidad adimensional
 \noindent
 donde el \'indice $i$ etiqueta un tipo particular de componente como lo es la materia, radiaci\'on, etc.. 
 \\
-
 Por lo tanto,  las ecuaciones de Friedmann para un universo
 lleno de un conjunto de fluidos perfectos se pueden escribir de la siguiente manera
-
+%
 	\begin{eqnarray}
 		\left(\frac{H}{H_0} \right)^2 &=& \sum_i \Omega_{i,0}a^{-3(1+w_i)} + \Omega_{k,0}a^{-2},\\
 		q &=& \frac{1}{2} \sum_i \Omega_i (1+3w_i).
@@ -461,7 +465,7 @@ En la secci\'on anterior hemos desarrollado las principales ecuaciones que descr
 universo a gran escala. Notamos que la estructura total del CMB, espectro de potencias en la materia
 y distancias lumin\'osas dependen fuertemente de las condiciones escenciales que surgen a partir de la \'epoca
 infacion\'aria, de la densidad de materia y de la raz\'on de expansion del universo $H_0$. 
-En esta secci\'on se da una breve introducci\'on a las cantidad utilizadas en la descripci\'on de las propiedades
+En esta secci\'on se da una breve introducci\'on a las cantidad o par\'ametros utilizados en la descripci\'on de las propiedades
 del cosmos.
 
 
@@ -472,10 +476,10 @@ del cosmos.
 
 Este tipo de par\'ametros, com\'unmente  denominados como \textit{par\'ametros est\'andar}, son considerados
 como las principales cantidades utilizadas en la descripci\'on del Universo.
-Estos, sin embargo, no son predichos por una teori\'ia fundamental sino que tienen que ser modulados
-a mano de tal manera que la mejor combinaci\'on provea la mejor descripci\'on de las observaciones
+Estos, sin embargo, no son predichos por una teor\'ia fundamental sino que tienen que ser modulados
+a mano de tal manera que una combinaci\'on apropiada provea la mejor descripci\'on de las observaciones
 astrof\'isicas y cosmol\'ogicas  actuales. Variaciones de estos par\'ametros afectan la amplitud y forma del espectro, as\'i como
-las distancias luminosas medidas, lo que por consecuencia desemboca en diferentes realizaciones de nuestro 
+las distancias luminosas medidas, y que por consecuencia desemboca en diferentes realizaciones de nuestro 
 Universo. Existe una clasificaci\'on de estos par\'ametros dependiendo de las escalas donde se ven involucrados.
 
 
@@ -485,7 +489,7 @@ Universo. Existe una clasificaci\'on de estos par\'ametros dependiendo de las es
 
 
 La descripci\'on actual del universo homog\'eneo puede darse simplemente en t\'erminos de los par\'ametros de 
-densidad $\Omega_{0,i}$ y el par\'ametro de Hubble $H_{0}$ a trav\'es de la ecuaci\'on de Friedmann
+densidad $\Omega_{0,i}$ y el par\'ametro de Hubble $H_{0}$, a trav\'es de la ecuaci\'on de Friedmann
 %
 	\beq
 		H^2 = H_0^2 \left[(\Omega_{\gamma,0} + \Omega_\nu, 0)a^{-4} + (\Omega_{b, 0} + \Omega_{DM, 0})a^{-3} 
@@ -496,11 +500,12 @@ densidad $\Omega_{0,i}$ y el par\'ametro de Hubble $H_{0}$ a trav\'es de la ecua
 Los t\'erminos que contienen contribuciones de radiaci\'on son medidos con gran presici\'on. Por ejemplo, utilizando  
 mediciones del sat\'elite WMAP se encuentra que $\Omega_{\gamma,0} = 2.469 \times 10^{-5} h^{-2}$  correspondiente 
 a una temperatura $T_{cmb}=2.725K$. 
-De manera muy similar para los neutrinos $\nu$ mientras estos mantengan un comportamiento relativista, ya que pueden 
-relacionanarse con la densidad de los fotones a trav\'es de (\ref{eq:nu}). 
-Sin embargo, variaciones del resto de los par\'ametros deja distintos tipos de huellas en la historia de fondo y la evoluci\'on
-de las perturbaciones observadas a trav\'es de las distancias luminosas.
-La figura (\textcolor{red}{Falta figura}) muestra los valores t\'eoricos del m\'odulo de las distancias para tres modelos diferentes tomando en cuenta
+De manera muy similar para los neutrinos mientras estos mantengan un comportamiento relativista, ya que pueden 
+relacionarse con la densidad de los fotones a trav\'es de (\ref{eq:nu}). 
+Sin embargo, variaciones del resto de los par\'ametros deja distintos tipos de huellas en la historia y la evoluci\'on
+de las perturbaciones observadas a trav\'es de las distancias lumin\'osas.
+Las lineas s\'olidas de la Figura (\ref{Fig:SNs}) corresponden a valores t\'eoricos 
+del m\'odulo de la distancia $\mu$ o 'luminosidad' para tres modelos diferentes tomando en cuenta
 combinaciones de $\Omega_{m,0}$ y $\Omega_{\Lambda,0}$. N\'otese que los objetos parecen estar m\'as alejados 
 (se observan m\'as tenues) en un universo con constante cosmol\'ogica que en uno dominado s\'olo por materia.
 
@@ -519,7 +524,7 @@ de  materia oscura $\Omega_{DM}h^2$ y bariones $\Omega_b h^2$.
 
 
 El conjunto est\'andar de par\'ametros, mencionado previamente, provee una descripci\'on adecuada de los modelos
-cosmol\'ogicos comparandola con los datos observacionales. Sin embargo, esta parametrizaci\'on no es \'unica y alguna otra 
+cosmol\'ogicos. Sin embargo, esta parametrizaci\'on no es \'unica y alguna otra 
 puede ser tan buena como \'esta. Algunas parametrizaciones hacen uso del conocimiento de la f\'isica o de la 
 sensitividad de los detectores y por tanto pueden interpretarse de manera m\'as natural. En general se pudo haber
 utilizado otro conjunto de par\'ametros para describir el universo, por ejemplo, algunos de ellos incluyen: la edad del universo, 
@@ -537,37 +542,38 @@ par\'ametros de densidad $\Omega_{i,0}$ y la constante de Hubble $H_0$.
 El r\'apido avance en el desarrollo de instrumentos observacionales altamente potentes ha guiado
 al surgimiento de la cosmolog\'ia de alta presici\'on.
 En particular experimentos desarrollados para medir las anisotrop\'ias observadas en el CMB, 
-distancias luminosas a partir de explosiones de Supernovas tipo IA y formaci\'on de estructura
-a gran escala. En este art\'iculo nos enfocaremos en las supernovas.
+distancias lumin\'osas a partir de explosiones de Supernovas tipo Ia y formaci\'on de estructura
+a gran escala. En este art\'iculo nos enfocaremos en las distancias luminosas $d_L$ medidas a partir de supernovas
+$\mu = 5\log(d_L) + 25$, en funci\'on del corrimiento al rojo $z = 1/a(t) -1$.
  
 
 %%------------------------------------------------------------------------------------------------%%
 \subsection{Supernovas}
 %%------------------------------------------------------------------------------------------------%%
 
-Por m\'as de casi dos d\'ecadas las observaciones en las supernovas han proporcionado 
+Por m\'as de casi dos d\'ecadas observaciones en las supernovas han proporcionado 
 evidencia decisiva de que la expansi\'on actual del universo se encuentra en una etapa de 
-aceleramiento. En particular estudios de supernovas tipo IA, consideradas como velas est\'andar:
-\'estas tienen la propiedad de poseer la misma luminosidad intr\'inseca con alta presici\'on, hasta un factor 
+aceleraci\'on. En particular estudios de supernovas tipo Ia, consideradas como velas est\'andar:
+\'estas tienen la propiedad de poseer la misma luminosidad intr\'inseca con alta precisi\'on, hasta un factor 
 de reescalamiento. Por tanto, la aceleraci\'on actual sugiere de la existencia de una componente ex\'otica
-o la posibilidad de teor\'ias alternativas, las cuales producir\'ian tal efecto. Algunos ejemplos 
-de detecciones de supernovas tipo IA que son importantes por mencionar, incluyen:
+o la posibilidad de teor\'ias alternativas, las cuales podr\'ian producir tal efecto. Algunos ejemplos 
+de detecciones de supernovas tipo Ia importantes a mencionar, incluyen:
 
 	\begin{itemize}
-		\item El Sloan Digital Sky Survey-II (SDSS) quien descrubri\'o y midi\'o curvas de luz de m\'as de 327 supernovas
-			tipo IA espectrosc\'opicamente confirmadas, en el rango $0.05 < z < 0.35$.
+		\item El Sloan Digital Sky Survey-II (SDSS) quien descubri\'o y midi\'o curvas de luz de m\'as de 327 supernovas
+			tipo Ia espectrosc\'opicamente confirmadas en el rango $0.05 < z < 0.35$.
 		\item El programa The Equation of State: SupErNovae trace Cosmic Expansion (ESSENCE),
 			encontr\'o y analiz\'o 60 supernovas en el intervalo de corrimiento al rojo $0.15 < z < 0.70$.
 		\item La muestra del Supernova Legacy Survey (SNLS) tercer a\~no de medici\'on presenta 252 supernovas a altos
 			corrimientos al rojo ($0.15 < z < 1.1$).
 		\item El Telescopio Espacial Hubble (HST) descubri\'o 21 supernovas tipo IA a corrimientos al rojo $z\geq 1$.
-		\item Recientemente la compilaci\'on de datos de todas las fuentes antes mencionadas es nombrada
+		\item Recientemente la compilaci\'on de todas las fuentes antes mencionadas es nombrada
 			como Union 2.1
 	\end{itemize}
 
 Las mediciones de supernovas pueden ser graficadas en el diagrama de Hubble con el m\'odulo o luminosidad de la distancia 
-en t\'erminos del corrimiento al rojo, para desp\'ues localizar la mejor combinaci\'on de par\'ametros que describen las observaciones,
-como lo veremos en las siguientes secciones.
+en t\'erminos del corrimiento al rojo, para desp\'ues localizar la mejor combinaci\'on de par\'ametros que describen las observaciones
+(ver Figura (\ref{Fig:SNs})), como lo veremos en la siguiente secci\'on.
 
 
 %%%FIGURE
@@ -576,8 +582,9 @@ como lo veremos en las siguientes secciones.
 \includegraphics[trim =  0mm  0mm 0mm 0mm, clip, width=14cm, height=7cm]{SN_models.pdf} 
 \end{center}
 \caption[Geometries of the spacetime]
-{A summary of possible geometries.}
-\label{Fig:cmb_sh}
+{Las l\'ineas s\'olidas representan los valores te\'oricos del m\'odulo de la distancia para tres modelos distintos,
+mientras que lo datos son obtenidos a partir de mediciones de Supernovas tipo Ia.}
+\label{Fig:SNs}
 \end{figure}
 
 
@@ -1080,7 +1087,7 @@ Finalmente s\'olo resta mostrar las t\'ipicas regiones de confidencia para nuest
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Bayesian Statistics with SNIa}
+\section{Estad\'istica Bayesiana con Supernovas}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1097,6 +1104,10 @@ Finalmente s\'olo resta mostrar las t\'ipicas regiones de confidencia para nuest
 \end{figure}
 %%%%%%%
 
+Los resultados obtenidos utilizando SN $\Omega_{DM} =0.30 \pm 0.04, \Omega_b h^2 = 0.0224 \pm 0.0004, h = H_0/100 = 0.68 \pm 0.04
+\Omega_k = -0.002 \pm 0.010$, y usando BAO 
+$\Omega_{DM} = 0.301 \pm 0.008,   \Omega_b h^2 = 0.0225 \pm 0.0003,  h = H_0/100 = 0.679 \pm 0.007, 
+\Omega_k = -0.003 \pm 0.003$ donde el error representa 68\% nivel de confianza.
 
 \bibliography{cosmo,cosmo_preprints}
 
