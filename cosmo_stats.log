@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  14 FEB 2018 22:20
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 FEB 2018 21:27
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  14 FEB 2018 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -584,16 +580,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-<<<<<<< HEAD
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `Note1' on page 2 undefined on input line 126.
-
-
-
-=======
-) [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
 Underfull \hbox (badness 10000) in paragraph at lines 123--136
 
  []
@@ -603,13 +590,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--145
 [][]
  []
 
-<<<<<<< HEAD
-[2]
-Missing character: There is no ó in font cmr10!
- [3]
-=======
 [2] [3]
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
 
 Package natbib Warning: Citation `alguna cita' on page 4 undefined on input lin
 e 298.
@@ -619,45 +600,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--300
 
  []
 
-<<<<<<< HEAD
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 337--343
-=======
 
 Package natbib Warning: Citation `algo' on page 4 undefined on input line 315.
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
 
-
-<<<<<<< HEAD
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 441--444
-
- []
-
-[6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 557.
-=======
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 341--347
 
  []
 
-[4] [5] [6]
+[5] [6]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 563.
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 557.
- [7]
-<SN_models.pdf, id=209, 1011.78pt x 505.89pt>
-=======
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 563.
-
-<SN_models.pdf, id=220, 1011.78pt x 505.89pt>
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
+ [7]
+<SN_models.pdf, id=225, 1011.78pt x 505.89pt>
 File: SN_models.pdf Graphic file (type pdf)
  <use SN_models.pdf>
 Package pdftex.def Info: SN_models.pdf used on input line 582.
@@ -667,47 +627,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 597--608
 
  []
 
-<<<<<<< HEAD
 
-Underfull \hbox (badness 10000) in paragraph at lines 639--646
-=======
-[7]
 Underfull \hbox (badness 10000) in paragraph at lines 646--653
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
 
  []
 
 [8 <./SN_models.pdf>] [9] [10] [11]
 
-<<<<<<< HEAD
-Package natbib Warning: Citation `AlanH' on page 12 undefined on input line 939
+Package natbib Warning: Citation `AlanH' on page 12 undefined on input line 946
 .
 
 
-Package natbib Warning: Citation `LicV2' on page 12 undefined on input line 939
+Package natbib Warning: Citation `LicV2' on page 12 undefined on input line 946
 .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 960--969
-
- []
-
-<data.png, id=872, 499.1448pt x 373.8768pt>
-=======
-Package natbib Warning: Citation `AlanH' on page 11 undefined on input line 946
-.
-
-
-Package natbib Warning: Citation `LicV2' on page 11 undefined on input line 946
-.
-
-[11]
 Underfull \hbox (badness 10000) in paragraph at lines 967--976
 
  []
 
-<data.png, id=894, 499.1448pt x 373.8768pt>
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
+<data.png, id=888, 499.1448pt x 373.8768pt>
 File: data.png Graphic file (type png)
  <use data.png>
 Package pdftex.def Info: data.png used on input line 998.
@@ -721,63 +660,24 @@ Package natbib Warning: Citation `PyMC3' on page 13 undefined on input line 102
 Package natbib Warning: Citation `Github' on page 13 undefined on input line 10
 25.
 
-<<<<<<< HEAD
-<chain.png, id=892, 859.21pt x 281.05pt>
-=======
-<chain.png, id=911, 859.21pt x 281.05pt>
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
+<chain.png, id=907, 859.21pt x 281.05pt>
 File: chain.png Graphic file (type png)
  <use chain.png>
 Package pdftex.def Info: chain.png used on input line 1058.
 (pdftex.def)             Requested size: 398.34113pt x 142.2676pt.
 
-<<<<<<< HEAD
-<datastr.png, id=896, 499.1448pt x 373.8768pt>
-=======
-<datastr.png, id=915, 499.1448pt x 373.8768pt>
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
+<datastr.png, id=911, 499.1448pt x 373.8768pt>
 File: datastr.png Graphic file (type png)
  <use datastr.png>
 Package pdftex.def Info: datastr.png used on input line 1066.
 (pdftex.def)             Requested size: 227.6242pt x 142.26622pt.
-<<<<<<< HEAD
- [13 <./data.png>] <cab.png, id=914, 399.4925pt x 275.0275pt>
-=======
-
-<cab.png, id=918, 399.4925pt x 275.0275pt>
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
+ [13 <./data.png>] <cab.png, id=929, 399.4925pt x 275.0275pt>
 File: cab.png Graphic file (type png)
  <use cab.png>
 Package pdftex.def Info: cab.png used on input line 1083.
 (pdftex.def)             Requested size: 170.71361pt x 170.71886pt.
-<<<<<<< HEAD
- [14 <./chain.png> <./datastr.png> <./cab.png>]
-No file cosmo_stats.bbl.
-No file cosmo_stats.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1116.
- (./cosmo_stats.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1116.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1116.
-=======
-
-<constraints.pdf, id=920, 542.77708pt x 412.14282pt>
-File: constraints.pdf Graphic file (type pdf)
- <use constraints.pdf>
-Package pdftex.def Info: constraints.pdf used on input line 1098.
-(pdftex.def)             Requested size: 227.62524pt x 142.2586pt.
-
-<constraints_1.pdf, id=922, 533.4555pt x 404.26752pt>
-File: constraints_1.pdf Graphic file (type pdf)
- <use constraints_1.pdf>
-Package pdftex.def Info: constraints_1.pdf used on input line 1099.
-(pdftex.def)             Requested size: 227.61504pt x 142.26065pt.
-
-[13 <./chain.png>] (./cosmo_stats.bbl [14 <./datastr.png> <./cab.png> <./constr
-aints.pdf> <./constraints_1.pdf>]) (./cosmo_stats.bbl)
+ [14 <./chain.png> <./datastr.png> <./cab.png>] (./cosmo_stats.bbl) (./cosmo_st
+ats.bbl)
 
 Package natbib Warning: There were undefined citations.
 
@@ -801,7 +701,6 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1127.
  (./cosmo_stats.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1127.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1127.
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
 
 Package rerunfilecheck Info: File `cosmo_stats.out' has not changed.
 (rerunfilecheck)             Checksum: 2D181E74D3673FD81FDAF804DAB4B17E;2289.
@@ -811,80 +710,38 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 10502 strings out of 493029
- 150027 string characters out of 6136234
- 265414 words of memory out of 5000000
- 13776 multiletter control sequences out of 15000+600000
+ 10528 strings out of 493029
+ 150333 string characters out of 6136234
+ 268646 words of memory out of 5000000
+ 13794 multiletter control sequences out of 15000+600000
  16073 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,39p,2306b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{frontmatter.1} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmtt8.pfb>
-Output written on cosmo_stats.pdf (15 pages, 707082 bytes).
+ 41i,11n,39p,2306b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t8.pfb>
+Output written on cosmo_stats.pdf (15 pages, 719152 bytes).
 PDF statistics:
- 1023 PDF objects out of 1200 (max. 8388607)
- 360 compressed objects within 4 object streams
- 104 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 10539 strings out of 493014
- 151285 string characters out of 6133351
- 268727 words of memory out of 5000000
- 13809 multiletter control sequences out of 15000+600000
- 16073 words of font info for 63 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,11n,39p,974b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on cosmo_stats.pdf (15 pages, 837309 bytes).
-PDF statistics:
- 1079 PDF objects out of 1200 (max. 8388607)
- 406 compressed objects within 5 object streams
+ 1046 PDF objects out of 1200 (max. 8388607)
+ 380 compressed objects within 4 object streams
  108 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> eb2c11abd4dbe9eac900e06e259e9ae9047854d8
+ 320 words of extra memory for PDF output out of 10000 (max. 10000000)
 
