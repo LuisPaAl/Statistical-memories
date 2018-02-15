@@ -583,7 +583,7 @@ en t\'erminos del corrimiento al rojo, para desp\'ues localizar la mejor combina
 \end{center}
 \caption[Geometries of the spacetime]
 {Las l\'ineas s\'olidas representan los valores te\'oricos del m\'odulo de la distancia para tres modelos distintos,
-mientras que lo datos son obtenidos a partir de mediciones de Supernovas tipo Ia.}
+mientras que los datos son obtenidos a partir de mediciones de Supernovas tipo Ia.}
 \label{Fig:SNs}
 \end{figure}
 
@@ -1008,13 +1008,13 @@ mediante un proceso de inferencia Bayesiana. Si consideramos que en principio no
 nuestros par\'ametros libres, salvo las cotas l\'imite en que \'estos deber\'ian estar, un buen prior para 
 comenzar nuestra inferencia Bayesiana ser\'ia el considerar distribuciones planas. Para esto comenzaremos considerando los priors
 %
-	\begin{equation}
-		a \propto U[0,1.5], \ \ \ \text{y} \ \ \ b \propto U[0,1.5].
-	\end{equation}
-
+	$
+		a \propto U[0,1.5],  \text{y}  b \propto U[0,1.5].
+	$
+\\
 Considerando que existen valores de $a$, $b$ y $\sigma$ para los cuales los datos se fijan mejor 
 (tal que el posterior es m\'aximo global), entonces de \eqref{GLik} podemos escribir el Likelihood de nuestro sistema como 
-
+%
 	\begin{equation}
 		L(D;recta)\propto \exp\left[-\frac{(y_d-y)^2}{2\sigma_d}\right].
 	\end{equation}
@@ -1063,8 +1063,10 @@ criterio de Gelman-Rubin para la convergencia de las cadenas.}}
 Para ejemplificar los resultados obtenidos mediante este m\'etodo, podemos graficar la recta te\'orica considerando los valores promediados de nuestros par\'ametros proporcionados en la tabla \ref{tabla1}. En la figura \ref{fig:datastr} podemos observar esta gr\'afica. Como podemos observar, a pesar de que nuestra curva inferida por nuestro m\'etodo Bayesiano no coincide exactamente con la recta real, \'esta parece ajustar bastante bien nuestros datos. Por supuesto, esto se debe al hecho de que al contar con tan pocos datos, a\'un hay cierta ambig\"uedad en los par\'ametros que pueden ajustar relativamente bien a los datos. 
 
 \begin{figure}[ht] 
-\includegraphics[trim = 1mm  1mm 1mm 1mm, clip, width=8.cm, height=5cm]{datastr.png}
-\caption{Curva inferida por nuestro m\'etodo Bayesiano. Los par\'ametros obtenidos parecen ajustar muy bien nuestros datos.}% \citep{LiddleLyth}.}
+\includegraphics[trim = 1mm  1mm 1mm 1mm, clip, width=8.cm, height=5cm]{datastr.png} \qquad
+\includegraphics[trim = 1mm  1mm 1mm 1mm, clip, width=6.cm, height=5cm]{cab.png}
+\caption{Derecha:Curva inferida por nuestro m\'etodo Bayesiano. Los par\'ametros obtenidos parecen ajustar muy bien nuestros datos.
+Izquierda:Regiones de confidencia en 2D para nuestros par\'ametros $a$ y $b$. Graficamos los contornos a 1-4 $\sigma$. }% \citep{LiddleLyth}.}
 \label{fig:datastr}
 \end{figure}
 
@@ -1079,12 +1081,6 @@ Para ejemplificar los resultados obtenidos mediante este m\'etodo, podemos grafi
 
 Finalmente s\'olo resta mostrar las t\'ipicas regiones de confidencia para nuestros par\'ametros. Las regiones que son usuales mostrar son aquellas que corresponden a un m\'ultiplo de desviaciones estandar de los par\'ametros de inter\'es. En la figura \ref{confidence} mostramos las t\'ipicas regiones de confidencia a 1-4 $\sigma$. Adem\'as hemos graficado en color rojo el valor real para nuestros par\'ametros. Lo que podemos observar r\'apidamente es que el valor real de nuestros par\'ametros se encuentran a menos de una desviaci\'on estandar del valor estimado por nuestro m\'etodo de inferencia. Por supuesto, la raz\'on de esta discrepancia es debido a que s\'olo contamos con 25 datos para hacer nuestra inferencia Bayesiana; de contar con m\'as, nuestros resultados deber\'ian ser m\'as precisos y podr\'iamos ser capaces de acotar en una regi\'on muy peque\~na los posibles valores que nuestros par\'ametros podr\'ian tener.  
 
-\begin{figure}[ht] 
-\includegraphics[trim = 1mm  1mm 1mm 1mm, clip, width=6.cm, height=6cm]{cab.png}
-\caption{Regiones de confidencia en 2D para nuestros par\'ametros $a$ y $b$. Graficamos los contornos a 1-4 $\sigma$.}% \citep{LiddleLyth}.}
-\label{confidence}
-\end{figure}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Estad\'istica Bayesiana con Supernovas}
@@ -1093,7 +1089,7 @@ Finalmente s\'olo resta mostrar las t\'ipicas regiones de confidencia para nuest
 
 
 %%%FIGURE
-\begin{figure}[th]
+\begin{figure}[h]
 \begin{center}
 \includegraphics[trim =  0mm  0mm 0mm 0mm, clip, width=8cm, height=5cm]{constraints.pdf} 
 \includegraphics[trim =  0mm  0mm 0mm 0mm, clip, width=8cm, height=5cm]{constraints_1.pdf} 
