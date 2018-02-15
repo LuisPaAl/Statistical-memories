@@ -55,7 +55,7 @@
 
 \title{Cosmo Estad\'istica} 
 
-\author{J. Alberto Vazquez}
+\author{J. Alberto V\'azquez}
 \affiliation{ICF-UNAM}
 \affiliation{CINVESTAV}
 \email{javazquez@icf.unam.mx}
@@ -70,7 +70,7 @@
 
 \begin{abstract}
  En este art\'iculo se presenta una breve introducci\'on sobre las propiedades
- que describen el Universo observable. Tanto la teor\'ia como las observaciones, y la conecci\'on existente entre
+ que describen el Universo observable. Tanto la teor\'ia como algunas observaciones, y la conecci\'on existente entre
  ellas dada por la estad\'istica Bayesiana a trav\'es de c\'odigos n\'umericos. 
  \end{abstract}
 
@@ -295,7 +295,7 @@ de dos contribuyentes principales: fotones ($\gamma$) y neutrinos sin masa ($\nu
 
 \textit{Fotones}. Los fotones primordiales juegan un papel muy importante en la cosmolog\'ia 
 observacional  ya que ellos constituyen la radiaci\'on c\'osmica en el fondo de microondas que observamos
-hoy en d\'ia \jav{ \cite{alguna cita}}
+hoy en d\'ia \citet{COBE}
 \\
 
 \textit{Neutrinos sin masa}. Los neutrinos son clasificados como leptones d\'ebilmente interactuantes los cuales existen
@@ -312,7 +312,7 @@ donde $N_{\rm eff}$ es el n\'umero efectivo de especies de neutrinos; n\'otese q
 Recientemente varios experimentos sugieren que los neutrinos efectivamente poseen 
 una masa aunque muy peque\~na, por ejemplo experimentos que detectan neutrinos atmosf\'ericos o neutrinos solares.
 Aunado a esto, obervaciones cosmol\'ogicas tambi\'en pueden imponer l\'imites en las masas de los neutrinos; algunos art\'iculos
-de revisi\'on sobre el tema \jav{\cite{algo}}.
+de revisi\'on sobre el tema \cite{neutrinos}.
 
 
 %%------------------------------------------------------------------------------------------------%%
@@ -342,7 +342,7 @@ y de materia oscura (DM)
 (protones $p^\texttt{+}$ y neutrones $n^0$).
 Adem\'as si consideramos que el Universo como un todo tiene una carga total neutra, por tanto debe de haber 
 un n\'umero igual de protones que de electrones ($e^\texttt{-}$ - leptones cargados). 
-Un art\'iculo de revisi\'on sobre la formaci\'on de elementos en el bing bang puede encontrarse en \jav{cite{}}.
+Un art\'iculo de revisi\'on sobre la formaci\'on de elementos en el big bang puede encontrarse en \cite{BBN}.
 \\
 
 
@@ -1105,21 +1105,27 @@ Los resultados obtenidos utilizando SN $\Omega_{DM} =0.30 \pm 0.04, \Omega_b h^2
 $\Omega_{DM} = 0.301 \pm 0.008,   \Omega_b h^2 = 0.0225 \pm 0.0003,  h = H_0/100 = 0.679 \pm 0.007, 
 \Omega_k = -0.003 \pm 0.003$ donde el error representa 68\% nivel de confianza.
 
-\bibliography{cosmo,cosmo_preprints}
+%\bibliography{cosmo,cosmo_preprints}
 
-Once we have learned how to use a Bayesian procedure to fit a model, we can use this new tecniques in our Cosmological models. 
+%Once we have learned how to use a Bayesian procedure to fit a model, we can use this new tecniques in our Cosmological models. 
 
 
 
 %\jav{tomando los parametros que mejor ajustan, graficar la linea teoria en la misma figura 2, tambien falta decir que 
 %valor en el promedio $\pm$ su barra de error para a,b, m}
 
-\bibliography{cosmo,cosmo_preprints}
+%\bibliography{cosmo_stats}
+\begin{thebibliography}{10}
+
+\bibitem{COBE}George F. Smoot. Summary of Results from COBE,  	arXiv:astro-ph/9902027.
+\bibitem{neutrinos} Julien Lesgourgues, Sergio Pastor, Neutrino cosmology and Planck,  	arXiv:1404.1740.
+\bibitem{BBN} A. Coc, \textit{et. al.} Updated Big Bang Nucleosynthesis confronted to WMAP observations and to the Abundance of Light Elements,  	arXiv:astro-ph/0309480
+%\bibitem{GSW} M.~Greene, J.~Schwarz, and%E.~Witten, \textit{Superstring Theory:%Introduction}, (Cambridge University%Press, London, 1985).
 %\bibitem{AlanH}{Alan Heaven} Alan Heavens; Statistical techniques in cosmology; May 2010
 %\bibitem{LicV2} Verde L., astroph/0712.3028 (2007)
 %\bibitem{PyMC3}Salvatier J., Wiecki T.V., Fonnesbeck C. (2016) Probabilistic programming in Python using PyMC3. PeerJ Computer Science 2:e55 DOI: 10.7717/peerj-cs.55.
-%\bibitem{Github} https://github.com/LuisPaAl/Statistical-memories
-
+%\bibitem[Luis]{Github} https://github.com/LuisPaAl/Statistical-memories
+\end{thebibliography}
 \end{document}
 
 
