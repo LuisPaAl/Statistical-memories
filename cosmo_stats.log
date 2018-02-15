@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  14 FEB 2018 22:22
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 FEB 2018 22:24
->>>>>>> 2050779718ecf40d5dac01e517d28de7560903ac
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  15 FEB 2018 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -613,149 +609,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 341--347
  []
 
 [5] [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 563.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 562.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 563.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 562.
  [7]
 <SN_models.pdf, id=225, 1011.78pt x 505.89pt>
 File: SN_models.pdf Graphic file (type pdf)
  <use SN_models.pdf>
-Package pdftex.def Info: SN_models.pdf used on input line 582.
+Package pdftex.def Info: SN_models.pdf used on input line 581.
 (pdftex.def)             Requested size: 398.34416pt x 199.17207pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--608
+Underfull \hbox (badness 10000) in paragraph at lines 596--607
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--653
+Underfull \hbox (badness 10000) in paragraph at lines 645--652
 
  []
 
 [8 <./SN_models.pdf>] [9] [10] [11]
 
-Package natbib Warning: Citation `AlanH' on page 12 undefined on input line 946
+Package natbib Warning: Citation `AlanH' on page 12 undefined on input line 944
 .
 
 
-Package natbib Warning: Citation `LicV2' on page 12 undefined on input line 946
+Package natbib Warning: Citation `LicV2' on page 12 undefined on input line 944
 .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 967--976
+Underfull \hbox (badness 10000) in paragraph at lines 965--974
 
  []
 
 <data.png, id=888, 499.1448pt x 373.8768pt>
 File: data.png Graphic file (type png)
  <use data.png>
-Package pdftex.def Info: data.png used on input line 998.
+Package pdftex.def Info: data.png used on input line 996.
 (pdftex.def)             Requested size: 227.6242pt x 142.26622pt.
  [12]
 
 Package natbib Warning: Citation `PyMC3' on page 13 undefined on input line 102
-4.
+2.
 
 
 Package natbib Warning: Citation `Github' on page 13 undefined on input line 10
-25.
+23.
 
-<<<<<<< HEAD
 <chain.png, id=907, 859.21pt x 281.05pt>
-=======
-<chain.png, id=910, 859.21pt x 281.05pt>
->>>>>>> 2050779718ecf40d5dac01e517d28de7560903ac
 File: chain.png Graphic file (type png)
  <use chain.png>
-Package pdftex.def Info: chain.png used on input line 1058.
+Package pdftex.def Info: chain.png used on input line 1056.
 (pdftex.def)             Requested size: 398.34113pt x 142.2676pt.
 
-<<<<<<< HEAD
 <datastr.png, id=911, 499.1448pt x 373.8768pt>
-=======
-<datastr.png, id=914, 499.1448pt x 373.8768pt>
->>>>>>> 2050779718ecf40d5dac01e517d28de7560903ac
 File: datastr.png Graphic file (type png)
  <use datastr.png>
-Package pdftex.def Info: datastr.png used on input line 1066.
+Package pdftex.def Info: datastr.png used on input line 1064.
 (pdftex.def)             Requested size: 227.6242pt x 142.26622pt.
-<<<<<<< HEAD
  [13 <./data.png>] <cab.png, id=929, 399.4925pt x 275.0275pt>
 File: cab.png Graphic file (type png)
  <use cab.png>
-Package pdftex.def Info: cab.png used on input line 1083.
+Package pdftex.def Info: cab.png used on input line 1081.
 (pdftex.def)             Requested size: 170.71361pt x 170.71886pt.
  [14 <./chain.png> <./datastr.png> <./cab.png>] (./cosmo_stats.bbl) (./cosmo_st
 ats.bbl)
-=======
-
-<cab.png, id=916, 399.4925pt x 275.0275pt>
-File: cab.png Graphic file (type png)
- <use cab.png>
-Package pdftex.def Info: cab.png used on input line 1067.
-(pdftex.def)             Requested size: 170.71361pt x 142.26709pt.
-
-
-LaTeX Warning: Reference `confidence' on page 13 undefined on input line 1082.
-
-<constraints.pdf, id=918, 542.77708pt x 412.14282pt>
-File: constraints.pdf Graphic file (type pdf)
- <use constraints.pdf>
-Package pdftex.def Info: constraints.pdf used on input line 1094.
-(pdftex.def)             Requested size: 227.62524pt x 142.2586pt.
-
-<constraints_1.pdf, id=920, 533.4555pt x 404.26752pt>
-File: constraints_1.pdf Graphic file (type pdf)
- <use constraints_1.pdf>
-Package pdftex.def Info: constraints_1.pdf used on input line 1095.
-(pdftex.def)             Requested size: 227.61504pt x 142.26065pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13 <./chain.png>] (./cosmo_stats.bbl) (./cosmo_stats.bbl)
->>>>>>> 2050779718ecf40d5dac01e517d28de7560903ac
 
 Package natbib Warning: There were undefined citations.
 
 
 Package natbib Warning: There were multiply defined citations.
 
-[14pdfTeX warning (ext4): destination with the same identifier (name{frontmatte
+[15pdfTeX warning (ext4): destination with the same identifier (name{frontmatte
 r.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1123 \end{document}
+l.1125 \end{document}
                      pdfTeX warning (ext4): destination with the same identifie
 r (name{cite.Note1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1123 \end{document}
-                      <./datastr.png> <./cab.png> <./constraints.pdf> <./constr
-aints_1.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1123.
+l.1125 \end{document}
+                     ]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1125.
  (./cosmo_stats.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1123.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1125.
 
 Package rerunfilecheck Info: File `cosmo_stats.out' has not changed.
-(rerunfilecheck)             Checksum: DBCF5AD1C2497804C41D7AA80906CBD8;2289.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 2D181E74D3673FD81FDAF804DAB4B17E;2289.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
  10528 strings out of 493029
  150333 string characters out of 6136234
  268646 words of memory out of 5000000
@@ -784,49 +738,10 @@ blic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t8.pfb>
-Output written on cosmo_stats.pdf (15 pages, 719152 bytes).
+Output written on cosmo_stats.pdf (15 pages, 719161 bytes).
 PDF statistics:
  1046 PDF objects out of 1200 (max. 8388607)
  380 compressed objects within 4 object streams
  108 named destinations out of 1000 (max. 500000)
  320 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 10535 strings out of 493014
- 151237 string characters out of 6133351
- 268714 words of memory out of 5000000
- 13808 multiletter control sequences out of 15000+600000
- 16073 words of font info for 63 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,11n,39p,971b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on cosmo_stats.pdf (14 pages, 836965 bytes).
-PDF statistics:
- 1071 PDF objects out of 1200 (max. 8388607)
- 400 compressed objects within 4 object streams
- 105 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 2050779718ecf40d5dac01e517d28de7560903ac
 
